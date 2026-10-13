@@ -1,0 +1,262 @@
+{
+  "id": "ep003b0000000002",
+  "name": "EP003 B2 — Aprobar y enviar confirmaciones (un correo por solicitud)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c3000002-0000-4000-8000-000000000001",
+      "name": "Aprobar y enviar",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/out/registro.json",
+        "options": {}
+      },
+      "id": "c3000002-0000-4000-8000-000000000002",
+      "name": "Leer hoja",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "id": "c3000002-0000-4000-8000-000000000003",
+      "name": "Extraer hoja",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Puerta de aprobación: solo lo registrado y todavía sin correo. Si no hay nada, no sale nada.\nconst raw = $('Extraer hoja').first().json.data;\nconst hoja = Array.isArray(raw) ? raw : [];\nreturn hoja.filter((r) => r.estado === 'registrada' && !r.correo_enviado).map((r) => ({ json: r }));"
+      },
+      "id": "c3000002-0000-4000-8000-000000000004",
+      "name": "Pendientes de envío",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "Solicitudes (pruebas) <solicitudes@correo-de-prueba.test>",
+        "toEmail": "={{ $json.email }}",
+        "subject": "=Recibida tu solicitud {{ $json.id }}: {{ $json.asunto }}",
+        "emailFormat": "text",
+        "text": "=Hola {{ $json.nombre }},\n\nHemos recibido tu solicitud «{{ $json.asunto }}» (referencia {{ $json.id }}). Te contestaremos en cuanto la revisemos.\n\nEste correo es una prueba con datos ficticios en una bandeja local.",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "c3000002-0000-4000-8000-000000000005",
+      "name": "Enviar confirmación",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        880,
+        0
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "smtpmailpit0000001",
+          "name": "SMTP bandeja de pruebas (Mailpit, local)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Marca como enviadas las filas cuyo correo aceptó el servidor; la hoja completa se vuelve a escribir.\nconst raw = $('Extraer hoja').first().json.data;\nconst hoja = (Array.isArray(raw) ? raw : []).map((r) => ({ ...r }));\nconst pendientes = $('Pendientes de envío').all().map((it) => it.json);\nconst resultados = $input.all().map((it) => it.json);\nconst ahora = new Date().toISOString();\nresultados.forEach((res, i) => { const p = pendientes[i]; if (!p) return; const fila = hoja.find((r) => r.id === p.id); if (!fila) return; const aceptado = Array.isArray(res.accepted) ? res.accepted.length > 0 : !res.error; if (aceptado) { fila.correo_enviado = true; fila.enviado_en = ahora; fila.motivo = 'Confirmación enviada una vez (' + ahora.slice(0, 16) + ').'; } else { fila.motivo = 'El servidor de correo no aceptó el envío: revisar.'; } });\nreturn hoja.map((r) => ({ json: r }));"
+      },
+      "id": "c3000002-0000-4000-8000-000000000006",
+      "name": "Marcar como enviado",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "registro.json"
+        }
+      },
+      "id": "c3000002-0000-4000-8000-000000000007",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1320,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/registro.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c3000002-0000-4000-8000-000000000008",
+      "name": "Guardar hoja (JSON)",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1540,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "solicitudes.xlsx",
+          "headerRow": true,
+          "sheetName": "Solicitudes"
+        }
+      },
+      "id": "c3000002-0000-4000-8000-000000000009",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1320,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/solicitudes.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c3000002-0000-4000-8000-00000000000a",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1540,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Aprobar y enviar": {
+      "main": [
+        [
+          {
+            "node": "Leer hoja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer hoja": {
+      "main": [
+        [
+          {
+            "node": "Extraer hoja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer hoja": {
+      "main": [
+        [
+          {
+            "node": "Pendientes de envío",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pendientes de envío": {
+      "main": [
+        [
+          {
+            "node": "Enviar confirmación",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Enviar confirmación": {
+      "main": [
+        [
+          {
+            "node": "Marcar como enviado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Marcar como enviado": {
+      "main": [
+        [
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar hoja (JSON)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

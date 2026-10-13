@@ -1,0 +1,363 @@
+{
+  "totals": {
+    "envios": 50,
+    "registradas": 42,
+    "duplicadas": 5,
+    "rechazadas": 3,
+    "correos_esperados": 42,
+    "mismo_correo_distinta_solicitud": 4
+  },
+  "dedupe_key": "correo normalizado (minúsculas, sin espacios) + asunto normalizado",
+  "rows": [
+    {
+      "id": "ENV-001",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-002",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-003",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-004",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-005",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-006",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-007",
+      "outcome": "duplicada",
+      "reason": "mismo correo y misma solicitud ya registrados",
+      "duplicate_of": "ENV-005",
+      "email_expected": false
+    },
+    {
+      "id": "ENV-008",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-009",
+      "outcome": "rechazada",
+      "reason": "falta el correo",
+      "duplicate_of": null,
+      "email_expected": false
+    },
+    {
+      "id": "ENV-010",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-011",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-012",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-013",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-014",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-015",
+      "outcome": "duplicada",
+      "reason": "mismo correo y misma solicitud ya registrados",
+      "duplicate_of": "ENV-005",
+      "email_expected": false
+    },
+    {
+      "id": "ENV-016",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-017",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-018",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-019",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-020",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-021",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-022",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-023",
+      "outcome": "duplicada",
+      "reason": "mismo correo y misma solicitud ya registrados",
+      "duplicate_of": "ENV-011",
+      "email_expected": false
+    },
+    {
+      "id": "ENV-024",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-025",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-026",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-027",
+      "outcome": "rechazada",
+      "reason": "correo con formato inválido",
+      "duplicate_of": null,
+      "email_expected": false
+    },
+    {
+      "id": "ENV-028",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-029",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-030",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-031",
+      "outcome": "duplicada",
+      "reason": "mismo correo y misma solicitud ya registrados",
+      "duplicate_of": "ENV-013",
+      "email_expected": false
+    },
+    {
+      "id": "ENV-032",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-033",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-034",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-035",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-036",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-037",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-038",
+      "outcome": "rechazada",
+      "reason": "falta el asunto",
+      "duplicate_of": null,
+      "email_expected": false
+    },
+    {
+      "id": "ENV-039",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-040",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-041",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-042",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-043",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-044",
+      "outcome": "duplicada",
+      "reason": "mismo correo y misma solicitud ya registrados",
+      "duplicate_of": "ENV-020",
+      "email_expected": false
+    },
+    {
+      "id": "ENV-045",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-046",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-047",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-048",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-049",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    },
+    {
+      "id": "ENV-050",
+      "outcome": "registrada",
+      "reason": null,
+      "duplicate_of": null,
+      "email_expected": true
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ENV-001",
+    "recibido": "2026-10-05T08:20:00.000Z",
+    "nombre": "Lucía Ejemplo",
+    "email": "lucia.ejemplo@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-002",
+    "recibido": "2026-10-05T08:46:00.000Z",
+    "nombre": "Mateo Prueba",
+    "email": "mateo.prueba@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Lo pedí la semana pasada y no tuve respuesta."
+  },
+  {
+    "id": "ENV-003",
+    "recibido": "2026-10-05T08:36:00.000Z",
+    "nombre": "Sofía Ficticia",
+    "email": "sofia.ficticia@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-004",
+    "recibido": "2026-10-05T08:52:00.000Z",
+    "nombre": "Hugo Inventado",
+    "email": "hugo.inventado@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-005",
+    "recibido": "2026-10-05T08:50:00.000Z",
+    "nombre": "Martina Demo",
+    "email": "martina.demo@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-006",
+    "recibido": "2026-10-05T08:48:00.000Z",
+    "nombre": "Leo Simulado",
+    "email": "leo.simulado@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-007",
+    "recibido": "2026-10-05T10:13:00.000Z",
+    "nombre": "Martina Demo",
+    "email": "Martina.demo@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-008",
+    "recibido": "2026-10-05T10:08:00.000Z",
+    "nombre": "Valeria Supuesta",
+    "email": "valeria.supuesta@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-009",
+    "recibido": "2026-10-05T09:12:00.000Z",
+    "nombre": "Tomás Sin Correo",
+    "email": "",
+    "asunto": "Consulta de factura",
+    "mensaje": "Se me olvidó poner el correo."
+  },
+  {
+    "id": "ENV-010",
+    "recibido": "2026-10-05T11:30:00.000Z",
+    "nombre": "Daniel Hipotético",
+    "email": "daniel.hipotetico@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-011",
+    "recibido": "2026-10-05T09:28:00.000Z",
+    "nombre": "Carla Sintética",
+    "email": "carla.sintetica@correo-de-prueba.test",
+    "asunto": "Incidencia con el portátil",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-012",
+    "recibido": "2026-10-05T09:36:00.000Z",
+    "nombre": "Pablo Muestra",
+    "email": "pablo.muestra@correo-de-prueba.test",
+    "asunto": "Incidencia con el portátil",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-013",
+    "recibido": "2026-10-05T13:38:00.000Z",
+    "nombre": "Elena Modelo",
+    "email": "elena.modelo@correo-de-prueba.test",
+    "asunto": "Baja de servicio",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-014",
+    "recibido": "2026-10-05T13:50:00.000Z",
+    "nombre": "Adrián Patrón",
+    "email": "adrian.patron@correo-de-prueba.test",
+    "asunto": "Petición de material de oficina",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-015",
+    "recibido": "2026-10-05T11:15:00.000Z",
+    "nombre": "Martina Demo",
+    "email": "Martina.demo@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-016",
+    "recibido": "2026-10-05T12:32:00.000Z",
+    "nombre": "Julia Plantilla",
+    "email": "julia.plantilla@correo-de-prueba.test",
+    "asunto": "Consulta de factura",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-017",
+    "recibido": "2026-10-05T11:07:00.000Z",
+    "nombre": "Marcos Borrador",
+    "email": "marcos.borrador@correo-de-prueba.test",
+    "asunto": "Consulta de factura",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-018",
+    "recibido": "2026-10-05T11:36:00.000Z",
+    "nombre": "Nerea Prototipo",
+    "email": "nerea.prototipo@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-019",
+    "recibido": "2026-10-05T10:32:00.000Z",
+    "nombre": "Iván Esquema",
+    "email": "ivan.esquema@correo-de-prueba.test",
+    "asunto": "Baja de servicio",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-020",
+    "recibido": "2026-10-05T14:20:00.000Z",
+    "nombre": "Alba Boceto",
+    "email": "alba.boceto@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-021",
+    "recibido": "2026-10-05T13:15:00.000Z",
+    "nombre": "Sergio Maqueta",
+    "email": "sergio.maqueta@correo-de-prueba.test",
+    "asunto": "Consulta de factura",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-022",
+    "recibido": "2026-10-05T12:46:00.000Z",
+    "nombre": "Irene Ensayo",
+    "email": "irene.ensayo@correo-de-prueba.test",
+    "asunto": "Cambio de dirección fiscal",
+    "mensaje": "Lo pedí la semana pasada y no tuve respuesta."
+  },
+  {
+    "id": "ENV-023",
+    "recibido": "2026-10-05T17:12:00.000Z",
+    "nombre": "Carla Sintética",
+    "email": "Carla.sintetica@correo-de-prueba.test",
+    "asunto": "Incidencia con el portátil",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-024",
+    "recibido": "2026-10-05T12:48:00.000Z",
+    "nombre": "Álvaro Tanteo",
+    "email": "alvaro.tanteo@correo-de-prueba.test",
+    "asunto": "Reserva de sala de reuniones",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-025",
+    "recibido": "2026-10-05T17:10:00.000Z",
+    "nombre": "Paula Ejemplar",
+    "email": "paula.ejemplar@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-026",
+    "recibido": "2026-10-05T16:14:00.000Z",
+    "nombre": "Diego Figurado",
+    "email": "diego.figurado@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-027",
+    "recibido": "2026-10-05T17:00:00.000Z",
+    "nombre": "Ana Correo Roto",
+    "email": "ana.correo.roto@@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "Creo que escribí mal el correo."
+  },
+  {
+    "id": "ENV-028",
+    "recibido": "2026-10-05T15:00:00.000Z",
+    "nombre": "Claudia Nominal",
+    "email": "claudia.nominal@correo-de-prueba.test",
+    "asunto": "Baja de servicio",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-029",
+    "recibido": "2026-10-05T13:48:00.000Z",
+    "nombre": "Rubén Teórico",
+    "email": "ruben.teorico@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "Adjunto los datos en el formulario. Un saludo."
+  },
+  {
+    "id": "ENV-030",
+    "recibido": "2026-10-05T12:00:00.000Z",
+    "nombre": "Laura Genérica",
+    "email": "laura.generica@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-031",
+    "recibido": "2026-10-05T13:10:00.000Z",
+    "nombre": "Elena Modelo",
+    "email": "Elena.modelo@correo-de-prueba.test",
+    "asunto": "Baja de servicio",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-032",
+    "recibido": "2026-10-05T14:56:00.000Z",
+    "nombre": "Jorge Estándar",
+    "email": "jorge.estandar@correo-de-prueba.test",
+    "asunto": "Reserva de sala de reuniones",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-033",
+    "recibido": "2026-10-05T17:54:00.000Z",
+    "nombre": "Marta Típica",
+    "email": "marta.tipica@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-034",
+    "recibido": "2026-10-05T17:04:00.000Z",
+    "nombre": "Óscar Común",
+    "email": "oscar.comun@correo-de-prueba.test",
+    "asunto": "Cambio de dirección fiscal",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-035",
+    "recibido": "2026-10-05T13:50:00.000Z",
+    "nombre": "Celia Ordinaria",
+    "email": "celia.ordinaria@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-036",
+    "recibido": "2026-10-05T15:48:00.000Z",
+    "nombre": "Raúl Corriente",
+    "email": "raul.corriente@correo-de-prueba.test",
+    "asunto": "Baja de servicio",
+    "mensaje": "Lo pedí la semana pasada y no tuve respuesta."
+  },
+  {
+    "id": "ENV-037",
+    "recibido": "2026-10-05T14:10:00.000Z",
+    "nombre": "Noa Habitual",
+    "email": "noa.habitual@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-038",
+    "recibido": "2026-10-05T20:02:00.000Z",
+    "nombre": "Luis Sin Asunto",
+    "email": "luis.sin.asunto@correo-de-prueba.test",
+    "asunto": "",
+    "mensaje": "Hola, ¿me podéis ayudar?"
+  },
+  {
+    "id": "ENV-039",
+    "recibido": "2026-10-05T13:12:00.000Z",
+    "nombre": "Gonzalo Usual",
+    "email": "gonzalo.usual@correo-de-prueba.test",
+    "asunto": "Cambio de dirección fiscal",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-040",
+    "recibido": "2026-10-05T12:40:00.000Z",
+    "nombre": "Vega Normal",
+    "email": "vega.normal@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-041",
+    "recibido": "2026-10-05T23:02:00.000Z",
+    "nombre": "Andrés Regular",
+    "email": "andres.regular@correo-de-prueba.test",
+    "asunto": "Solicitud de vacaciones",
+    "mensaje": "Lo pedí la semana pasada y no tuve respuesta."
+  },
+  {
+    "id": "ENV-042",
+    "recibido": "2026-10-05T21:18:00.000Z",
+    "nombre": "Aitana Media",
+    "email": "aitana.media@correo-de-prueba.test",
+    "asunto": "Petición de material de oficina",
+    "mensaje": "Gracias por adelantado."
+  },
+  {
+    "id": "ENV-043",
+    "recibido": "2026-10-05T21:37:00.000Z",
+    "nombre": "Bruno Neutro",
+    "email": "bruno.neutro@correo-de-prueba.test",
+    "asunto": "Alta de nuevo proveedor",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-044",
+    "recibido": "2026-10-05T17:32:00.000Z",
+    "nombre": "Alba Boceto",
+    "email": "Alba.boceto@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-045",
+    "recibido": "2026-10-05T13:15:00.000Z",
+    "nombre": "Candela Simple",
+    "email": "candela.simple@correo-de-prueba.test",
+    "asunto": "Incidencia con el portátil",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-046",
+    "recibido": "2026-10-06T01:38:00.000Z",
+    "nombre": "Enzo Llano",
+    "email": "enzo.llano@correo-de-prueba.test",
+    "asunto": "Incidencia con el portátil",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-047",
+    "recibido": "2026-10-06T01:14:00.000Z",
+    "nombre": "Hugo Inventado",
+    "email": "hugo.inventado@correo-de-prueba.test",
+    "asunto": "Consulta de factura",
+    "mensaje": "Necesito que se tramite cuanto antes, gracias."
+  },
+  {
+    "id": "ENV-048",
+    "recibido": "2026-10-05T16:00:00.000Z",
+    "nombre": "Adrián Patrón",
+    "email": "adrian.patron@correo-de-prueba.test",
+    "asunto": "Revisión de nómina",
+    "mensaje": "Es para el departamento de administración."
+  },
+  {
+    "id": "ENV-049",
+    "recibido": "2026-10-06T01:58:00.000Z",
+    "nombre": "Álvaro Tanteo",
+    "email": "alvaro.tanteo@correo-de-prueba.test",
+    "asunto": "Consulta de factura",
+    "mensaje": "¿Podéis confirmarme cuándo estará resuelto?"
+  },
+  {
+    "id": "ENV-050",
+    "recibido": "2026-10-06T04:50:00.000Z",
+    "nombre": "Óscar Común",
+    "email": "oscar.comun@correo-de-prueba.test",
+    "asunto": "Solicitud de acceso al sistema",
+    "mensaje": "Lo pedí la semana pasada y no tuve respuesta."
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "smtpmailpit0000001",
+    "name": "SMTP bandeja de pruebas (Mailpit, local)",
+    "type": "smtp",
+    "data": {
+      "user": "",
+      "password": "",
+      "host": "mailpit",
+      "port": 1025,
+      "secure": false,
+      "disableStartTls": true
+    }
+  }
+]
