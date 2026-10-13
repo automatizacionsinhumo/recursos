@@ -1,0 +1,289 @@
+{
+  "id": "ep005b0000000002",
+  "name": "EP005 B — Unir dos listados: una fila por correo, conflictos marcados",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c5000001-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/clientes_tienda.csv",
+        "options": {}
+      },
+      "id": "c5000001-0000-4000-8000-000000000002",
+      "name": "Leer clientes_tienda.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c5000001-0000-4000-8000-000000000003",
+      "name": "Extraer tabla (tienda)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/clientes_web.csv",
+        "options": {}
+      },
+      "id": "c5000001-0000-4000-8000-000000000004",
+      "name": "Leer clientes_web.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c5000001-0000-4000-8000-000000000005",
+      "name": "Extraer tabla (web)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 2
+      },
+      "id": "c5000001-0000-4000-8000-000000000007",
+      "name": "Unir los dos listados",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Segundo intento (B): la clave es el correo normalizado (sin espacios, en minúsculas). Un correo = una persona.\n// Si la misma persona trae datos distintos en los dos listados, no se adivina: se marca para revisar.\nconst limpio = (s) => String(s ?? '').replace(/\\s+/g, ' ').trim();\nconst clave = (s) => String(s ?? '').trim().toLowerCase();\nconst filas = $input.all().map((it) => it.json);\nconst porClave = new Map();\nfor (const r of filas) {\n  const k = clave(r.email);\n  const fila = { nombre: limpio(r.nombre), apellidos: limpio(r.apellidos), email: k, telefono: limpio(r.telefono), ciudad: limpio(r.ciudad) };\n  if (!porClave.has(k)) { porClave.set(k, { ...fila, estado: 'ok', aviso: '', repeticiones: 1 }); continue; }\n  const p = porClave.get(k);\n  p.repeticiones += 1;\n  const avisos = [];\n  if (p.telefono !== fila.telefono) avisos.push('teléfono distinto en los dos listados (' + p.telefono + ' · ' + fila.telefono + ')');\n  if (p.ciudad !== fila.ciudad) avisos.push('ciudad distinta (' + p.ciudad + ' · ' + fila.ciudad + ')');\n  if (avisos.length > 0) { p.estado = 'revisar'; p.aviso = [p.aviso, ...avisos].filter(Boolean).join('; '); }\n}\nconst out = [...porClave.values()].map((p) => ({ json: p }));\nconst n = out.length, rev = out.filter((it) => it.json.estado === 'revisar').length;\nreturn [...out, { json: { nombre: 'RESUMEN', apellidos: 'filas leídas: ' + filas.length + ' · personas: ' + n + ' · repetidas quitadas: ' + (filas.length - n) + ' · ok: ' + (n - rev) + ' · revisar: ' + rev, email: '', telefono: '', ciudad: '', estado: '', aviso: 'una fila por correo normalizado; conflictos marcados, no adivinados', repeticiones: null } }];"
+      },
+      "id": "c5000001-0000-4000-8000-000000000006",
+      "name": "Una fila por correo",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP005B.clientes.xlsx",
+          "headerRow": true,
+          "sheetName": "Clientes"
+        }
+      },
+      "id": "c5000001-0000-4000-8000-000000000008",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP005B.clientes.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c5000001-0000-4000-8000-000000000009",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP005B.observed.json"
+        }
+      },
+      "id": "c5000001-0000-4000-8000-000000000010",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP005B.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c5000001-0000-4000-8000-000000000011",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer clientes_tienda.csv",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Leer clientes_web.csv",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer clientes_tienda.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (tienda)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer clientes_web.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (web)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (tienda)": {
+      "main": [
+        [
+          {
+            "node": "Unir los dos listados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (web)": {
+      "main": [
+        [
+          {
+            "node": "Unir los dos listados",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Unir los dos listados": {
+      "main": [
+        [
+          {
+            "node": "Una fila por correo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Una fila por correo": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

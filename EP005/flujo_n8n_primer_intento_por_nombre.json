@@ -1,0 +1,292 @@
+{
+  "id": "ep005a0000000001",
+  "name": "EP005 A — Unir dos listados y quitar duplicados por nombre (primer intento)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c5000000-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/clientes_tienda.csv",
+        "options": {}
+      },
+      "id": "c5000000-0000-4000-8000-000000000002",
+      "name": "Leer clientes_tienda.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c5000000-0000-4000-8000-000000000003",
+      "name": "Extraer tabla (tienda)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/clientes_web.csv",
+        "options": {}
+      },
+      "id": "c5000000-0000-4000-8000-000000000004",
+      "name": "Leer clientes_web.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c5000000-0000-4000-8000-000000000005",
+      "name": "Extraer tabla (web)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 2
+      },
+      "id": "c5000000-0000-4000-8000-000000000007",
+      "name": "Unir los dos listados",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "removeDuplicateInputItems",
+        "compare": "selectedFields",
+        "fieldsToCompare": "nombre, apellidos",
+        "options": {}
+      },
+      "id": "c5000000-0000-4000-8000-000000000006",
+      "name": "Quitar duplicados por nombre",
+      "type": "n8n-nodes-base.removeDuplicates",
+      "typeVersion": 2,
+      "position": [
+        880,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP005A.clientes.xlsx",
+          "headerRow": true,
+          "sheetName": "Clientes"
+        }
+      },
+      "id": "c5000000-0000-4000-8000-000000000008",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP005A.clientes.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c5000000-0000-4000-8000-000000000009",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP005A.observed.json"
+        }
+      },
+      "id": "c5000000-0000-4000-8000-000000000010",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP005A.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c5000000-0000-4000-8000-000000000011",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer clientes_tienda.csv",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Leer clientes_web.csv",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer clientes_tienda.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (tienda)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer clientes_web.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (web)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (tienda)": {
+      "main": [
+        [
+          {
+            "node": "Unir los dos listados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (web)": {
+      "main": [
+        [
+          {
+            "node": "Unir los dos listados",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Unir los dos listados": {
+      "main": [
+        [
+          {
+            "node": "Quitar duplicados por nombre",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Quitar duplicados por nombre": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
