@@ -1,0 +1,2072 @@
+{
+  "notice": "Respuesta correcta calculada antes de ejecutar: valores numéricos reales de cada celda (null = celda vacía: dato ausente, no cero) y totales. Las celdas ambiguas deben quedar marcadas para revisar, no adivinadas.",
+  "csv": {
+    "separator": ";",
+    "decimal": ",",
+    "thousands": ".",
+    "date_format": "dd/mm/aaaa",
+    "encoding": "UTF-8 con BOM",
+    "rows": 200,
+    "columns": [
+      "fecha",
+      "codigo",
+      "producto",
+      "cliente",
+      "unidades",
+      "precio_unitario",
+      "descuento_pct",
+      "importe"
+    ]
+  },
+  "totals": {
+    "filas": 200,
+    "importe_total": 1484818.94,
+    "importes_vacios": 6,
+    "devoluciones": 8,
+    "ambiguas": 2,
+    "codigos_con_cero_inicial": 200,
+    "importes_mayores_de_mil": 159
+  },
+  "rows": [
+    {
+      "linea": 1,
+      "fecha": "2026-09-29",
+      "codigo": "00042",
+      "unidades": 19,
+      "precio_unitario": 59.73,
+      "descuento_pct": 15,
+      "importe": 964.64,
+      "flags": []
+    },
+    {
+      "linea": 2,
+      "fecha": "2026-09-01",
+      "codigo": "00310",
+      "unidades": 11,
+      "precio_unitario": 1006.54,
+      "descuento_pct": 15,
+      "importe": 9411.15,
+      "flags": []
+    },
+    {
+      "linea": 3,
+      "fecha": "2026-09-30",
+      "codigo": "02001",
+      "unidades": 4,
+      "precio_unitario": 1221.55,
+      "descuento_pct": 0,
+      "importe": 4886.2,
+      "flags": []
+    },
+    {
+      "linea": 4,
+      "fecha": "2026-09-12",
+      "codigo": "00450",
+      "unidades": 15,
+      "precio_unitario": 969.26,
+      "descuento_pct": 0,
+      "importe": 14538.9,
+      "flags": []
+    },
+    {
+      "linea": 5,
+      "fecha": "2026-09-15",
+      "codigo": "00088",
+      "unidades": 10,
+      "precio_unitario": 1283.7,
+      "descuento_pct": 15,
+      "importe": 10911.45,
+      "flags": []
+    },
+    {
+      "linea": 6,
+      "fecha": "2026-09-23",
+      "codigo": "01205",
+      "unidades": 1,
+      "precio_unitario": 622.3,
+      "descuento_pct": 0,
+      "importe": 622.3,
+      "flags": []
+    },
+    {
+      "linea": 7,
+      "fecha": "2026-09-17",
+      "codigo": "00107",
+      "unidades": 10,
+      "precio_unitario": 1352.04,
+      "descuento_pct": 0,
+      "importe": 13520.4,
+      "flags": []
+    },
+    {
+      "linea": 8,
+      "fecha": "2026-09-12",
+      "codigo": "02001",
+      "unidades": 11,
+      "precio_unitario": 301.87,
+      "descuento_pct": 0,
+      "importe": 3320.57,
+      "flags": []
+    },
+    {
+      "linea": 9,
+      "fecha": "2026-09-17",
+      "codigo": "00310",
+      "unidades": 3,
+      "precio_unitario": 388.69,
+      "descuento_pct": 0,
+      "importe": 1166.07,
+      "flags": []
+    },
+    {
+      "linea": 10,
+      "fecha": "2026-09-22",
+      "codigo": "00107",
+      "unidades": 15,
+      "precio_unitario": 494.08,
+      "descuento_pct": 10,
+      "importe": 6670.08,
+      "flags": []
+    },
+    {
+      "linea": 11,
+      "fecha": "2026-09-04",
+      "codigo": "00777",
+      "unidades": 14,
+      "precio_unitario": 363.14,
+      "descuento_pct": 0,
+      "importe": 5083.96,
+      "flags": []
+    },
+    {
+      "linea": 12,
+      "fecha": "2026-09-21",
+      "codigo": "00777",
+      "unidades": 24,
+      "precio_unitario": 291.81,
+      "descuento_pct": 0,
+      "importe": 7003.44,
+      "flags": []
+    },
+    {
+      "linea": 13,
+      "fecha": "2026-09-25",
+      "codigo": "00450",
+      "unidades": 1,
+      "precio_unitario": 593.45,
+      "descuento_pct": 0,
+      "importe": 593.45,
+      "flags": []
+    },
+    {
+      "linea": 14,
+      "fecha": "2026-09-14",
+      "codigo": "02001",
+      "unidades": 11,
+      "precio_unitario": 16.71,
+      "descuento_pct": 10,
+      "importe": 165.43,
+      "flags": []
+    },
+    {
+      "linea": 15,
+      "fecha": "2026-09-09",
+      "codigo": "00019",
+      "unidades": 8,
+      "precio_unitario": 281.31,
+      "descuento_pct": 0,
+      "importe": 2250.48,
+      "flags": []
+    },
+    {
+      "linea": 16,
+      "fecha": "2026-09-15",
+      "codigo": "00019",
+      "unidades": 3,
+      "precio_unitario": 1035.92,
+      "descuento_pct": 0,
+      "importe": 3107.76,
+      "flags": []
+    },
+    {
+      "linea": 17,
+      "fecha": "2026-09-28",
+      "codigo": "00042",
+      "unidades": 10,
+      "precio_unitario": 470.06,
+      "descuento_pct": 5,
+      "importe": 4465.57,
+      "flags": []
+    },
+    {
+      "linea": 18,
+      "fecha": "2026-09-03",
+      "codigo": "00310",
+      "unidades": 16,
+      "precio_unitario": 570.98,
+      "descuento_pct": 0,
+      "importe": 9135.68,
+      "flags": []
+    },
+    {
+      "linea": 19,
+      "fecha": "2026-09-08",
+      "codigo": "00088",
+      "unidades": 20,
+      "precio_unitario": 865.29,
+      "descuento_pct": 5,
+      "importe": 16440.51,
+      "flags": []
+    },
+    {
+      "linea": 20,
+      "fecha": "2026-09-02",
+      "codigo": "00088",
+      "unidades": 11,
+      "precio_unitario": 239.16,
+      "descuento_pct": 0,
+      "importe": 2630.76,
+      "flags": []
+    },
+    {
+      "linea": 21,
+      "fecha": "2026-09-05",
+      "codigo": "00911",
+      "unidades": 8,
+      "precio_unitario": 274.24,
+      "descuento_pct": 5,
+      "importe": 2084.22,
+      "flags": []
+    },
+    {
+      "linea": 22,
+      "fecha": "2026-09-24",
+      "codigo": "00042",
+      "unidades": 16,
+      "precio_unitario": 857.82,
+      "descuento_pct": 0,
+      "importe": 13725.12,
+      "flags": []
+    },
+    {
+      "linea": 23,
+      "fecha": "2026-09-26",
+      "codigo": "01205",
+      "unidades": -19,
+      "precio_unitario": 247.67,
+      "descuento_pct": 10,
+      "importe": -4235.16,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 24,
+      "fecha": "2026-09-27",
+      "codigo": "00777",
+      "unidades": 7,
+      "precio_unitario": 16.53,
+      "descuento_pct": 0,
+      "importe": 115.71,
+      "flags": []
+    },
+    {
+      "linea": 25,
+      "fecha": "2026-09-05",
+      "codigo": "00019",
+      "unidades": 23,
+      "precio_unitario": 813.55,
+      "descuento_pct": 0,
+      "importe": 18711.65,
+      "flags": []
+    },
+    {
+      "linea": 26,
+      "fecha": "2026-09-29",
+      "codigo": "02001",
+      "unidades": 5,
+      "precio_unitario": 1296.07,
+      "descuento_pct": 0,
+      "importe": 6480.35,
+      "flags": []
+    },
+    {
+      "linea": 27,
+      "fecha": "2026-09-08",
+      "codigo": "00310",
+      "unidades": 10,
+      "precio_unitario": 39.44,
+      "descuento_pct": 10,
+      "importe": 354.96,
+      "flags": []
+    },
+    {
+      "linea": 28,
+      "fecha": "2026-09-09",
+      "codigo": "00107",
+      "unidades": 11,
+      "precio_unitario": 307.06,
+      "descuento_pct": 0,
+      "importe": 3377.66,
+      "flags": []
+    },
+    {
+      "linea": 29,
+      "fecha": "2026-09-08",
+      "codigo": "01205",
+      "unidades": 15,
+      "precio_unitario": 1216.8,
+      "descuento_pct": 15,
+      "importe": 15514.2,
+      "flags": []
+    },
+    {
+      "linea": 30,
+      "fecha": "2026-09-14",
+      "codigo": "00107",
+      "unidades": 6,
+      "precio_unitario": 478.07,
+      "descuento_pct": 5,
+      "importe": 2725,
+      "flags": []
+    },
+    {
+      "linea": 31,
+      "fecha": "2026-09-13",
+      "codigo": "00019",
+      "unidades": 1,
+      "precio_unitario": null,
+      "descuento_pct": 0,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 32,
+      "fecha": "2026-09-30",
+      "codigo": "00310",
+      "unidades": 19,
+      "precio_unitario": 374.65,
+      "descuento_pct": 0,
+      "importe": 7118.35,
+      "flags": []
+    },
+    {
+      "linea": 33,
+      "fecha": "2026-09-25",
+      "codigo": "00042",
+      "unidades": 7,
+      "precio_unitario": 880.87,
+      "descuento_pct": 15,
+      "importe": 5241.18,
+      "flags": []
+    },
+    {
+      "linea": 34,
+      "fecha": "2026-09-12",
+      "codigo": "00019",
+      "unidades": 22,
+      "precio_unitario": 699.71,
+      "descuento_pct": 5,
+      "importe": 14623.94,
+      "flags": []
+    },
+    {
+      "linea": 35,
+      "fecha": "2026-09-18",
+      "codigo": "01205",
+      "unidades": 22,
+      "precio_unitario": 203.52,
+      "descuento_pct": 0,
+      "importe": 4477.44,
+      "flags": []
+    },
+    {
+      "linea": 36,
+      "fecha": "2026-09-16",
+      "codigo": "02001",
+      "unidades": 19,
+      "precio_unitario": 843.45,
+      "descuento_pct": 0,
+      "importe": 16025.55,
+      "flags": []
+    },
+    {
+      "linea": 37,
+      "fecha": "2026-09-16",
+      "codigo": "00042",
+      "unidades": 4,
+      "precio_unitario": 709.81,
+      "descuento_pct": 15,
+      "importe": 2413.35,
+      "flags": []
+    },
+    {
+      "linea": 38,
+      "fecha": "2026-09-09",
+      "codigo": "00450",
+      "unidades": 10,
+      "precio_unitario": 1164.31,
+      "descuento_pct": 15,
+      "importe": 9896.63,
+      "flags": []
+    },
+    {
+      "linea": 39,
+      "fecha": "2026-09-14",
+      "codigo": "00450",
+      "unidades": 13,
+      "precio_unitario": 363.67,
+      "descuento_pct": 10,
+      "importe": 4254.94,
+      "flags": []
+    },
+    {
+      "linea": 40,
+      "fecha": "2026-09-04",
+      "codigo": "00042",
+      "unidades": 12,
+      "precio_unitario": 864.6,
+      "descuento_pct": 15,
+      "importe": 8818.92,
+      "flags": []
+    },
+    {
+      "linea": 41,
+      "fecha": "2026-09-03",
+      "codigo": "00777",
+      "unidades": 4,
+      "precio_unitario": 1079.65,
+      "descuento_pct": 0,
+      "importe": 4318.6,
+      "flags": []
+    },
+    {
+      "linea": 42,
+      "fecha": "2026-09-22",
+      "codigo": "00310",
+      "unidades": 15,
+      "precio_unitario": 1366.37,
+      "descuento_pct": 15,
+      "importe": 17421.22,
+      "flags": []
+    },
+    {
+      "linea": 43,
+      "fecha": "2026-09-23",
+      "codigo": "00310",
+      "unidades": 2,
+      "precio_unitario": 274.3,
+      "descuento_pct": 5,
+      "importe": 521.17,
+      "flags": []
+    },
+    {
+      "linea": 44,
+      "fecha": "2026-09-20",
+      "codigo": "00777",
+      "unidades": 18,
+      "precio_unitario": 126.49,
+      "descuento_pct": 0,
+      "importe": 2276.82,
+      "flags": []
+    },
+    {
+      "linea": 45,
+      "fecha": "2026-09-08",
+      "codigo": "00310",
+      "unidades": 6,
+      "precio_unitario": 754.9,
+      "descuento_pct": 5,
+      "importe": 4302.93,
+      "flags": []
+    },
+    {
+      "linea": 46,
+      "fecha": "2026-09-16",
+      "codigo": "00310",
+      "unidades": -16,
+      "precio_unitario": 1016.58,
+      "descuento_pct": 0,
+      "importe": -16265.28,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 47,
+      "fecha": "2026-09-23",
+      "codigo": "00088",
+      "unidades": 9,
+      "precio_unitario": 243.11,
+      "descuento_pct": null,
+      "importe": 2187.99,
+      "flags": [
+        "descuento_vacio"
+      ]
+    },
+    {
+      "linea": 48,
+      "fecha": "2026-09-30",
+      "codigo": "00777",
+      "unidades": 4,
+      "precio_unitario": 1024.51,
+      "descuento_pct": 15,
+      "importe": 3483.33,
+      "flags": []
+    },
+    {
+      "linea": 49,
+      "fecha": "2026-09-02",
+      "codigo": "01205",
+      "unidades": 6,
+      "precio_unitario": 1033.98,
+      "descuento_pct": 10,
+      "importe": 5583.49,
+      "flags": []
+    },
+    {
+      "linea": 50,
+      "fecha": "2026-09-08",
+      "codigo": "00450",
+      "unidades": 1,
+      "precio_unitario": 91.15,
+      "descuento_pct": 0,
+      "importe": 91.15,
+      "flags": []
+    },
+    {
+      "linea": 51,
+      "fecha": "2026-09-24",
+      "codigo": "01205",
+      "unidades": 4,
+      "precio_unitario": 572.98,
+      "descuento_pct": 5,
+      "importe": 2177.32,
+      "flags": []
+    },
+    {
+      "linea": 52,
+      "fecha": "2026-09-08",
+      "codigo": "00107",
+      "unidades": 21,
+      "precio_unitario": 673.55,
+      "descuento_pct": 15,
+      "importe": 12022.87,
+      "flags": []
+    },
+    {
+      "linea": 53,
+      "fecha": "2026-09-09",
+      "codigo": "00088",
+      "unidades": 11,
+      "precio_unitario": 185.86,
+      "descuento_pct": 15,
+      "importe": 1737.79,
+      "flags": []
+    },
+    {
+      "linea": 54,
+      "fecha": "2026-09-22",
+      "codigo": "00088",
+      "unidades": 23,
+      "precio_unitario": 52.22,
+      "descuento_pct": 5,
+      "importe": 1141.01,
+      "flags": []
+    },
+    {
+      "linea": 55,
+      "fecha": "2026-09-20",
+      "codigo": "00777",
+      "unidades": 8,
+      "precio_unitario": 1090.62,
+      "descuento_pct": 0,
+      "importe": 8724.96,
+      "flags": []
+    },
+    {
+      "linea": 56,
+      "fecha": "2026-09-28",
+      "codigo": "00042",
+      "unidades": 17,
+      "precio_unitario": 21.06,
+      "descuento_pct": 15,
+      "importe": 304.32,
+      "flags": []
+    },
+    {
+      "linea": 57,
+      "fecha": "2026-09-13",
+      "codigo": "00911",
+      "unidades": 19,
+      "precio_unitario": 1224.92,
+      "descuento_pct": 5,
+      "importe": 22109.81,
+      "flags": []
+    },
+    {
+      "linea": 58,
+      "fecha": "2026-09-18",
+      "codigo": "00107",
+      "unidades": 17,
+      "precio_unitario": 19.89,
+      "descuento_pct": 0,
+      "importe": 338.13,
+      "flags": []
+    },
+    {
+      "linea": 59,
+      "fecha": "2026-09-14",
+      "codigo": "00088",
+      "unidades": 21,
+      "precio_unitario": 470.29,
+      "descuento_pct": 0,
+      "importe": 9876.09,
+      "flags": []
+    },
+    {
+      "linea": 60,
+      "fecha": "2026-09-08",
+      "codigo": "01205",
+      "unidades": 17,
+      "precio_unitario": 621.61,
+      "descuento_pct": 15,
+      "importe": 8982.26,
+      "flags": []
+    },
+    {
+      "linea": 61,
+      "fecha": "2026-09-27",
+      "codigo": "02001",
+      "unidades": 11,
+      "precio_unitario": 1313.53,
+      "descuento_pct": 0,
+      "importe": 1.2,
+      "flags": [
+        "ambigua_tres_decimales"
+      ]
+    },
+    {
+      "linea": 62,
+      "fecha": "2026-09-28",
+      "codigo": "01205",
+      "unidades": 13,
+      "precio_unitario": null,
+      "descuento_pct": 0,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 63,
+      "fecha": "2026-09-24",
+      "codigo": "00107",
+      "unidades": 13,
+      "precio_unitario": 917.2,
+      "descuento_pct": 15,
+      "importe": 10135.06,
+      "flags": []
+    },
+    {
+      "linea": 64,
+      "fecha": "2026-09-20",
+      "codigo": "00310",
+      "unidades": 24,
+      "precio_unitario": 478.45,
+      "descuento_pct": 15,
+      "importe": 9760.38,
+      "flags": []
+    },
+    {
+      "linea": 65,
+      "fecha": "2026-09-17",
+      "codigo": "00911",
+      "unidades": 22,
+      "precio_unitario": 769.64,
+      "descuento_pct": 10,
+      "importe": 15238.87,
+      "flags": []
+    },
+    {
+      "linea": 66,
+      "fecha": "2026-09-12",
+      "codigo": "02001",
+      "unidades": 18,
+      "precio_unitario": 1166.92,
+      "descuento_pct": 5,
+      "importe": 19954.33,
+      "flags": []
+    },
+    {
+      "linea": 67,
+      "fecha": "2026-09-05",
+      "codigo": "00777",
+      "unidades": 9,
+      "precio_unitario": 1377.23,
+      "descuento_pct": 15,
+      "importe": 10535.81,
+      "flags": []
+    },
+    {
+      "linea": 68,
+      "fecha": "2026-09-11",
+      "codigo": "00088",
+      "unidades": 24,
+      "precio_unitario": 92.38,
+      "descuento_pct": 10,
+      "importe": 1995.41,
+      "flags": []
+    },
+    {
+      "linea": 69,
+      "fecha": "2026-09-12",
+      "codigo": "02001",
+      "unidades": -24,
+      "precio_unitario": 1018.89,
+      "descuento_pct": 10,
+      "importe": -22008.02,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 70,
+      "fecha": "2026-09-05",
+      "codigo": "00088",
+      "unidades": 8,
+      "precio_unitario": 25.39,
+      "descuento_pct": 0,
+      "importe": 203.12,
+      "flags": []
+    },
+    {
+      "linea": 71,
+      "fecha": "2026-09-10",
+      "codigo": "00777",
+      "unidades": 5,
+      "precio_unitario": 248.99,
+      "descuento_pct": 5,
+      "importe": 1182.7,
+      "flags": []
+    },
+    {
+      "linea": 72,
+      "fecha": "2026-09-15",
+      "codigo": "01205",
+      "unidades": 17,
+      "precio_unitario": 768.72,
+      "descuento_pct": 0,
+      "importe": 13068.24,
+      "flags": []
+    },
+    {
+      "linea": 73,
+      "fecha": "2026-09-23",
+      "codigo": "00911",
+      "unidades": 17,
+      "precio_unitario": 338.73,
+      "descuento_pct": 0,
+      "importe": 5758.41,
+      "flags": []
+    },
+    {
+      "linea": 74,
+      "fecha": "2026-09-09",
+      "codigo": "00310",
+      "unidades": 8,
+      "precio_unitario": 108.43,
+      "descuento_pct": 0,
+      "importe": 867.44,
+      "flags": []
+    },
+    {
+      "linea": 75,
+      "fecha": "2026-09-26",
+      "codigo": "00042",
+      "unidades": 21,
+      "precio_unitario": 983.22,
+      "descuento_pct": 10,
+      "importe": 18582.86,
+      "flags": []
+    },
+    {
+      "linea": 76,
+      "fecha": "2026-09-13",
+      "codigo": "02001",
+      "unidades": 13,
+      "precio_unitario": 761.26,
+      "descuento_pct": 0,
+      "importe": 9896.38,
+      "flags": []
+    },
+    {
+      "linea": 77,
+      "fecha": "2026-09-03",
+      "codigo": "00019",
+      "unidades": 12,
+      "precio_unitario": 234.66,
+      "descuento_pct": 5,
+      "importe": 2675.12,
+      "flags": []
+    },
+    {
+      "linea": 78,
+      "fecha": "2026-09-05",
+      "codigo": "00042",
+      "unidades": 11,
+      "precio_unitario": 254.37,
+      "descuento_pct": 0,
+      "importe": 2798.07,
+      "flags": []
+    },
+    {
+      "linea": 79,
+      "fecha": "2026-09-10",
+      "codigo": "01205",
+      "unidades": 22,
+      "precio_unitario": 1025.14,
+      "descuento_pct": 0,
+      "importe": 22553.08,
+      "flags": []
+    },
+    {
+      "linea": 80,
+      "fecha": "2026-09-18",
+      "codigo": "00310",
+      "unidades": 19,
+      "precio_unitario": 397.46,
+      "descuento_pct": 0,
+      "importe": 7551.74,
+      "flags": []
+    },
+    {
+      "linea": 81,
+      "fecha": "2026-09-21",
+      "codigo": "00310",
+      "unidades": 16,
+      "precio_unitario": 272.03,
+      "descuento_pct": 0,
+      "importe": 4352.48,
+      "flags": []
+    },
+    {
+      "linea": 82,
+      "fecha": "2026-09-04",
+      "codigo": "00107",
+      "unidades": 23,
+      "precio_unitario": 1369.13,
+      "descuento_pct": 0,
+      "importe": 31489.99,
+      "flags": []
+    },
+    {
+      "linea": 83,
+      "fecha": "2026-09-20",
+      "codigo": "00107",
+      "unidades": 13,
+      "precio_unitario": 398.05,
+      "descuento_pct": 15,
+      "importe": 4398.45,
+      "flags": []
+    },
+    {
+      "linea": 84,
+      "fecha": "2026-09-11",
+      "codigo": "00310",
+      "unidades": 16,
+      "precio_unitario": 966.71,
+      "descuento_pct": 0,
+      "importe": 15467.36,
+      "flags": []
+    },
+    {
+      "linea": 85,
+      "fecha": "2026-09-21",
+      "codigo": "00777",
+      "unidades": 22,
+      "precio_unitario": 1147.9,
+      "descuento_pct": 0,
+      "importe": 25253.8,
+      "flags": []
+    },
+    {
+      "linea": 86,
+      "fecha": "2026-09-23",
+      "codigo": "00777",
+      "unidades": 19,
+      "precio_unitario": 236.65,
+      "descuento_pct": 10,
+      "importe": 4046.72,
+      "flags": []
+    },
+    {
+      "linea": 87,
+      "fecha": "2026-09-02",
+      "codigo": "01205",
+      "unidades": 23,
+      "precio_unitario": 922.74,
+      "descuento_pct": 10,
+      "importe": 19100.72,
+      "flags": []
+    },
+    {
+      "linea": 88,
+      "fecha": "2026-09-10",
+      "codigo": "01205",
+      "unidades": 23,
+      "precio_unitario": 926.1,
+      "descuento_pct": 0,
+      "importe": 21300.3,
+      "flags": []
+    },
+    {
+      "linea": 89,
+      "fecha": "2026-09-12",
+      "codigo": "00019",
+      "unidades": 6,
+      "precio_unitario": 1026.37,
+      "descuento_pct": 5,
+      "importe": 5850.31,
+      "flags": []
+    },
+    {
+      "linea": 90,
+      "fecha": "2026-09-24",
+      "codigo": "00310",
+      "unidades": 19,
+      "precio_unitario": 861,
+      "descuento_pct": 5,
+      "importe": 15541.05,
+      "flags": []
+    },
+    {
+      "linea": 91,
+      "fecha": "2026-09-19",
+      "codigo": "00042",
+      "unidades": 11,
+      "precio_unitario": 305.13,
+      "descuento_pct": 5,
+      "importe": 3188.61,
+      "flags": []
+    },
+    {
+      "linea": 92,
+      "fecha": "2026-09-30",
+      "codigo": "00088",
+      "unidades": -20,
+      "precio_unitario": 404.06,
+      "descuento_pct": 15,
+      "importe": -6869.02,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 93,
+      "fecha": "2026-09-09",
+      "codigo": "00450",
+      "unidades": 21,
+      "precio_unitario": null,
+      "descuento_pct": 15,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 94,
+      "fecha": "2026-09-30",
+      "codigo": "00107",
+      "unidades": 10,
+      "precio_unitario": 754.76,
+      "descuento_pct": null,
+      "importe": 7547.6,
+      "flags": [
+        "descuento_vacio"
+      ]
+    },
+    {
+      "linea": 95,
+      "fecha": "2026-09-18",
+      "codigo": "00777",
+      "unidades": 20,
+      "precio_unitario": 505.57,
+      "descuento_pct": 0,
+      "importe": 10111.4,
+      "flags": []
+    },
+    {
+      "linea": 96,
+      "fecha": "2026-09-10",
+      "codigo": "00107",
+      "unidades": 15,
+      "precio_unitario": 1334.27,
+      "descuento_pct": 0,
+      "importe": 20014.05,
+      "flags": []
+    },
+    {
+      "linea": 97,
+      "fecha": "2026-09-24",
+      "codigo": "00042",
+      "unidades": 15,
+      "precio_unitario": 365.73,
+      "descuento_pct": 15,
+      "importe": 4663.06,
+      "flags": []
+    },
+    {
+      "linea": 98,
+      "fecha": "2026-09-03",
+      "codigo": "00450",
+      "unidades": 12,
+      "precio_unitario": 637.1,
+      "descuento_pct": 0,
+      "importe": 7645.2,
+      "flags": []
+    },
+    {
+      "linea": 99,
+      "fecha": "2026-09-08",
+      "codigo": "02001",
+      "unidades": 3,
+      "precio_unitario": 1340.55,
+      "descuento_pct": 5,
+      "importe": 3820.57,
+      "flags": []
+    },
+    {
+      "linea": 100,
+      "fecha": "2026-09-25",
+      "codigo": "00107",
+      "unidades": 4,
+      "precio_unitario": 258.24,
+      "descuento_pct": 15,
+      "importe": 878.02,
+      "flags": []
+    },
+    {
+      "linea": 101,
+      "fecha": "2026-09-03",
+      "codigo": "00310",
+      "unidades": 18,
+      "precio_unitario": 895.16,
+      "descuento_pct": 10,
+      "importe": 14501.59,
+      "flags": []
+    },
+    {
+      "linea": 102,
+      "fecha": "2026-09-11",
+      "codigo": "00777",
+      "unidades": 24,
+      "precio_unitario": 1355.5,
+      "descuento_pct": 0,
+      "importe": 32532,
+      "flags": []
+    },
+    {
+      "linea": 103,
+      "fecha": "2026-09-02",
+      "codigo": "01205",
+      "unidades": 6,
+      "precio_unitario": 526.05,
+      "descuento_pct": 5,
+      "importe": 2998.48,
+      "flags": []
+    },
+    {
+      "linea": 104,
+      "fecha": "2026-09-15",
+      "codigo": "00777",
+      "unidades": 14,
+      "precio_unitario": 636.6,
+      "descuento_pct": 0,
+      "importe": 8912.4,
+      "flags": []
+    },
+    {
+      "linea": 105,
+      "fecha": "2026-09-01",
+      "codigo": "00911",
+      "unidades": 4,
+      "precio_unitario": 1228.9,
+      "descuento_pct": 0,
+      "importe": 4915.6,
+      "flags": []
+    },
+    {
+      "linea": 106,
+      "fecha": "2026-09-07",
+      "codigo": "02001",
+      "unidades": 7,
+      "precio_unitario": 810.27,
+      "descuento_pct": 10,
+      "importe": 5104.7,
+      "flags": []
+    },
+    {
+      "linea": 107,
+      "fecha": "2026-09-07",
+      "codigo": "00042",
+      "unidades": 1,
+      "precio_unitario": 378.81,
+      "descuento_pct": 5,
+      "importe": 359.87,
+      "flags": []
+    },
+    {
+      "linea": 108,
+      "fecha": "2026-09-19",
+      "codigo": "00042",
+      "unidades": 9,
+      "precio_unitario": 1344.96,
+      "descuento_pct": 10,
+      "importe": 10894.18,
+      "flags": []
+    },
+    {
+      "linea": 109,
+      "fecha": "2026-09-25",
+      "codigo": "00911",
+      "unidades": 23,
+      "precio_unitario": 989.67,
+      "descuento_pct": 5,
+      "importe": 21624.29,
+      "flags": []
+    },
+    {
+      "linea": 110,
+      "fecha": "2026-09-14",
+      "codigo": "00088",
+      "unidades": 6,
+      "precio_unitario": 226.26,
+      "descuento_pct": 15,
+      "importe": 1153.93,
+      "flags": []
+    },
+    {
+      "linea": 111,
+      "fecha": "2026-09-14",
+      "codigo": "00777",
+      "unidades": 20,
+      "precio_unitario": 1298.33,
+      "descuento_pct": 10,
+      "importe": 23369.94,
+      "flags": []
+    },
+    {
+      "linea": 112,
+      "fecha": "2026-09-25",
+      "codigo": "00107",
+      "unidades": 24,
+      "precio_unitario": 575.69,
+      "descuento_pct": 0,
+      "importe": 13816.56,
+      "flags": []
+    },
+    {
+      "linea": 113,
+      "fecha": "2026-09-29",
+      "codigo": "00042",
+      "unidades": 12,
+      "precio_unitario": 70.2,
+      "descuento_pct": 10,
+      "importe": 758.16,
+      "flags": []
+    },
+    {
+      "linea": 114,
+      "fecha": "2026-09-25",
+      "codigo": "00019",
+      "unidades": 8,
+      "precio_unitario": 164.01,
+      "descuento_pct": 15,
+      "importe": 1115.27,
+      "flags": []
+    },
+    {
+      "linea": 115,
+      "fecha": "2026-09-23",
+      "codigo": "00019",
+      "unidades": -21,
+      "precio_unitario": 1135.46,
+      "descuento_pct": 0,
+      "importe": -23844.66,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 116,
+      "fecha": "2026-09-04",
+      "codigo": "00019",
+      "unidades": 12,
+      "precio_unitario": 1114.62,
+      "descuento_pct": 10,
+      "importe": 12037.9,
+      "flags": []
+    },
+    {
+      "linea": 117,
+      "fecha": "2026-09-27",
+      "codigo": "02001",
+      "unidades": 18,
+      "precio_unitario": 73.32,
+      "descuento_pct": 0,
+      "importe": 1319.76,
+      "flags": []
+    },
+    {
+      "linea": 118,
+      "fecha": "2026-09-17",
+      "codigo": "00088",
+      "unidades": 1,
+      "precio_unitario": 192.9,
+      "descuento_pct": 5,
+      "importe": 183.26,
+      "flags": []
+    },
+    {
+      "linea": 119,
+      "fecha": "2026-09-15",
+      "codigo": "00911",
+      "unidades": 21,
+      "precio_unitario": 26.83,
+      "descuento_pct": 0,
+      "importe": 563.43,
+      "flags": []
+    },
+    {
+      "linea": 120,
+      "fecha": "2026-09-09",
+      "codigo": "00042",
+      "unidades": 9,
+      "precio_unitario": 573.65,
+      "descuento_pct": 0,
+      "importe": 5162.85,
+      "flags": []
+    },
+    {
+      "linea": 121,
+      "fecha": "2026-09-01",
+      "codigo": "00107",
+      "unidades": 6,
+      "precio_unitario": 1085.57,
+      "descuento_pct": 10,
+      "importe": 5862.08,
+      "flags": []
+    },
+    {
+      "linea": 122,
+      "fecha": "2026-09-26",
+      "codigo": "00450",
+      "unidades": 18,
+      "precio_unitario": 1116.32,
+      "descuento_pct": 10,
+      "importe": 18084.38,
+      "flags": []
+    },
+    {
+      "linea": 123,
+      "fecha": "2026-09-03",
+      "codigo": "00310",
+      "unidades": 2,
+      "precio_unitario": 1354.57,
+      "descuento_pct": 5,
+      "importe": 2573.68,
+      "flags": []
+    },
+    {
+      "linea": 124,
+      "fecha": "2026-09-14",
+      "codigo": "00310",
+      "unidades": 5,
+      "precio_unitario": null,
+      "descuento_pct": 15,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 125,
+      "fecha": "2026-09-23",
+      "codigo": "00088",
+      "unidades": 14,
+      "precio_unitario": 825.69,
+      "descuento_pct": 0,
+      "importe": 11559.66,
+      "flags": []
+    },
+    {
+      "linea": 126,
+      "fecha": "2026-09-04",
+      "codigo": "01205",
+      "unidades": 10,
+      "precio_unitario": 1236.13,
+      "descuento_pct": 0,
+      "importe": 12361.3,
+      "flags": []
+    },
+    {
+      "linea": 127,
+      "fecha": "2026-09-06",
+      "codigo": "00088",
+      "unidades": 20,
+      "precio_unitario": 1009.61,
+      "descuento_pct": 0,
+      "importe": 20192.2,
+      "flags": []
+    },
+    {
+      "linea": 128,
+      "fecha": "2026-09-06",
+      "codigo": "00019",
+      "unidades": 21,
+      "precio_unitario": 1276.95,
+      "descuento_pct": 10,
+      "importe": 24134.36,
+      "flags": []
+    },
+    {
+      "linea": 129,
+      "fecha": "2026-09-05",
+      "codigo": "00019",
+      "unidades": 21,
+      "precio_unitario": 1208.63,
+      "descuento_pct": 10,
+      "importe": 22843.11,
+      "flags": []
+    },
+    {
+      "linea": 130,
+      "fecha": "2026-09-11",
+      "codigo": "00042",
+      "unidades": 19,
+      "precio_unitario": 931.26,
+      "descuento_pct": 0,
+      "importe": 17693.94,
+      "flags": []
+    },
+    {
+      "linea": 131,
+      "fecha": "2026-09-20",
+      "codigo": "00777",
+      "unidades": 8,
+      "precio_unitario": 1222.91,
+      "descuento_pct": 0,
+      "importe": 9783.28,
+      "flags": []
+    },
+    {
+      "linea": 132,
+      "fecha": "2026-09-20",
+      "codigo": "02001",
+      "unidades": 19,
+      "precio_unitario": 886.24,
+      "descuento_pct": 0,
+      "importe": 16838.56,
+      "flags": []
+    },
+    {
+      "linea": 133,
+      "fecha": "2026-09-28",
+      "codigo": "01205",
+      "unidades": 23,
+      "precio_unitario": 1344.66,
+      "descuento_pct": 10,
+      "importe": 27834.46,
+      "flags": []
+    },
+    {
+      "linea": 134,
+      "fecha": "2026-09-25",
+      "codigo": "02001",
+      "unidades": 1,
+      "precio_unitario": 326.65,
+      "descuento_pct": 0,
+      "importe": 326.65,
+      "flags": []
+    },
+    {
+      "linea": 135,
+      "fecha": "2026-09-27",
+      "codigo": "00911",
+      "unidades": 24,
+      "precio_unitario": 367.25,
+      "descuento_pct": 0,
+      "importe": 8814,
+      "flags": []
+    },
+    {
+      "linea": 136,
+      "fecha": "2026-09-22",
+      "codigo": "00777",
+      "unidades": 12,
+      "precio_unitario": 889.21,
+      "descuento_pct": 10,
+      "importe": 9603.47,
+      "flags": []
+    },
+    {
+      "linea": 137,
+      "fecha": "2026-09-25",
+      "codigo": "00107",
+      "unidades": 17,
+      "precio_unitario": 1346.33,
+      "descuento_pct": 15,
+      "importe": 19454.47,
+      "flags": []
+    },
+    {
+      "linea": 138,
+      "fecha": "2026-09-27",
+      "codigo": "00777",
+      "unidades": -7,
+      "precio_unitario": 962.78,
+      "descuento_pct": 10,
+      "importe": -6065.51,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 139,
+      "fecha": "2026-09-08",
+      "codigo": "02001",
+      "unidades": 21,
+      "precio_unitario": 897.98,
+      "descuento_pct": 0,
+      "importe": 18857.58,
+      "flags": []
+    },
+    {
+      "linea": 140,
+      "fecha": "2026-09-09",
+      "codigo": "00042",
+      "unidades": 21,
+      "precio_unitario": 613.89,
+      "descuento_pct": 0,
+      "importe": 12891.69,
+      "flags": []
+    },
+    {
+      "linea": 141,
+      "fecha": "2026-09-10",
+      "codigo": "00107",
+      "unidades": 13,
+      "precio_unitario": 434.21,
+      "descuento_pct": null,
+      "importe": 5644.73,
+      "flags": [
+        "descuento_vacio"
+      ]
+    },
+    {
+      "linea": 142,
+      "fecha": "2026-09-28",
+      "codigo": "00107",
+      "unidades": 4,
+      "precio_unitario": 719.45,
+      "descuento_pct": 10,
+      "importe": 2590.02,
+      "flags": []
+    },
+    {
+      "linea": 143,
+      "fecha": "2026-09-29",
+      "codigo": "01205",
+      "unidades": 22,
+      "precio_unitario": 1296.61,
+      "descuento_pct": 0,
+      "importe": 28525.42,
+      "flags": []
+    },
+    {
+      "linea": 144,
+      "fecha": "2026-09-10",
+      "codigo": "00310",
+      "unidades": 22,
+      "precio_unitario": 585.57,
+      "descuento_pct": 0,
+      "importe": 12882.54,
+      "flags": []
+    },
+    {
+      "linea": 145,
+      "fecha": "2026-09-09",
+      "codigo": "00310",
+      "unidades": 12,
+      "precio_unitario": 1384.84,
+      "descuento_pct": 0,
+      "importe": 16618.08,
+      "flags": []
+    },
+    {
+      "linea": 146,
+      "fecha": "2026-09-28",
+      "codigo": "00019",
+      "unidades": 17,
+      "precio_unitario": 1240.63,
+      "descuento_pct": 0,
+      "importe": 21090.71,
+      "flags": []
+    },
+    {
+      "linea": 147,
+      "fecha": "2026-09-25",
+      "codigo": "00042",
+      "unidades": 15,
+      "precio_unitario": 365.21,
+      "descuento_pct": 0,
+      "importe": 5478.15,
+      "flags": []
+    },
+    {
+      "linea": 148,
+      "fecha": "2026-09-11",
+      "codigo": "00042",
+      "unidades": 4,
+      "precio_unitario": 1093.82,
+      "descuento_pct": 0,
+      "importe": 4375.28,
+      "flags": []
+    },
+    {
+      "linea": 149,
+      "fecha": "2026-09-01",
+      "codigo": "00088",
+      "unidades": 8,
+      "precio_unitario": 755.78,
+      "descuento_pct": 10,
+      "importe": 1.75,
+      "flags": [
+        "ambigua_tres_decimales"
+      ]
+    },
+    {
+      "linea": 150,
+      "fecha": "2026-09-19",
+      "codigo": "00088",
+      "unidades": 2,
+      "precio_unitario": 1280.88,
+      "descuento_pct": 0,
+      "importe": 2561.76,
+      "flags": []
+    },
+    {
+      "linea": 151,
+      "fecha": "2026-09-09",
+      "codigo": "00107",
+      "unidades": 10,
+      "precio_unitario": 532.35,
+      "descuento_pct": 0,
+      "importe": 5323.5,
+      "flags": []
+    },
+    {
+      "linea": 152,
+      "fecha": "2026-09-03",
+      "codigo": "00777",
+      "unidades": 3,
+      "precio_unitario": 1076.07,
+      "descuento_pct": 0,
+      "importe": 3228.21,
+      "flags": []
+    },
+    {
+      "linea": 153,
+      "fecha": "2026-09-18",
+      "codigo": "00450",
+      "unidades": 4,
+      "precio_unitario": 474.82,
+      "descuento_pct": 0,
+      "importe": 1899.28,
+      "flags": []
+    },
+    {
+      "linea": 154,
+      "fecha": "2026-09-28",
+      "codigo": "00777",
+      "unidades": 19,
+      "precio_unitario": 1025.12,
+      "descuento_pct": 0,
+      "importe": 19477.28,
+      "flags": []
+    },
+    {
+      "linea": 155,
+      "fecha": "2026-09-30",
+      "codigo": "00310",
+      "unidades": 8,
+      "precio_unitario": null,
+      "descuento_pct": 0,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 156,
+      "fecha": "2026-09-03",
+      "codigo": "00019",
+      "unidades": 20,
+      "precio_unitario": 930.28,
+      "descuento_pct": 5,
+      "importe": 17675.32,
+      "flags": []
+    },
+    {
+      "linea": 157,
+      "fecha": "2026-09-19",
+      "codigo": "00042",
+      "unidades": 6,
+      "precio_unitario": 24.68,
+      "descuento_pct": 15,
+      "importe": 125.87,
+      "flags": []
+    },
+    {
+      "linea": 158,
+      "fecha": "2026-09-15",
+      "codigo": "01205",
+      "unidades": 24,
+      "precio_unitario": 93.91,
+      "descuento_pct": 0,
+      "importe": 2253.84,
+      "flags": []
+    },
+    {
+      "linea": 159,
+      "fecha": "2026-09-14",
+      "codigo": "00911",
+      "unidades": 14,
+      "precio_unitario": 111.37,
+      "descuento_pct": 10,
+      "importe": 1403.26,
+      "flags": []
+    },
+    {
+      "linea": 160,
+      "fecha": "2026-09-27",
+      "codigo": "00042",
+      "unidades": 7,
+      "precio_unitario": 651.25,
+      "descuento_pct": 0,
+      "importe": 4558.75,
+      "flags": []
+    },
+    {
+      "linea": 161,
+      "fecha": "2026-09-21",
+      "codigo": "01205",
+      "unidades": -15,
+      "precio_unitario": 83.6,
+      "descuento_pct": 5,
+      "importe": -1191.3,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 162,
+      "fecha": "2026-09-23",
+      "codigo": "00450",
+      "unidades": 3,
+      "precio_unitario": 276.76,
+      "descuento_pct": 0,
+      "importe": 830.28,
+      "flags": []
+    },
+    {
+      "linea": 163,
+      "fecha": "2026-09-23",
+      "codigo": "02001",
+      "unidades": 12,
+      "precio_unitario": 199.3,
+      "descuento_pct": 0,
+      "importe": 2391.6,
+      "flags": []
+    },
+    {
+      "linea": 164,
+      "fecha": "2026-09-15",
+      "codigo": "00019",
+      "unidades": 15,
+      "precio_unitario": 488.54,
+      "descuento_pct": 15,
+      "importe": 6228.89,
+      "flags": []
+    },
+    {
+      "linea": 165,
+      "fecha": "2026-09-25",
+      "codigo": "00088",
+      "unidades": 16,
+      "precio_unitario": 827.36,
+      "descuento_pct": 10,
+      "importe": 11913.98,
+      "flags": []
+    },
+    {
+      "linea": 166,
+      "fecha": "2026-09-19",
+      "codigo": "01205",
+      "unidades": 4,
+      "precio_unitario": 179.33,
+      "descuento_pct": 0,
+      "importe": 717.32,
+      "flags": []
+    },
+    {
+      "linea": 167,
+      "fecha": "2026-09-06",
+      "codigo": "02001",
+      "unidades": 22,
+      "precio_unitario": 572.98,
+      "descuento_pct": 5,
+      "importe": 11975.28,
+      "flags": []
+    },
+    {
+      "linea": 168,
+      "fecha": "2026-09-04",
+      "codigo": "00777",
+      "unidades": 21,
+      "precio_unitario": 910.32,
+      "descuento_pct": 15,
+      "importe": 16249.21,
+      "flags": []
+    },
+    {
+      "linea": 169,
+      "fecha": "2026-09-18",
+      "codigo": "00310",
+      "unidades": 16,
+      "precio_unitario": 1285.38,
+      "descuento_pct": 5,
+      "importe": 19537.78,
+      "flags": []
+    },
+    {
+      "linea": 170,
+      "fecha": "2026-09-02",
+      "codigo": "00019",
+      "unidades": 1,
+      "precio_unitario": 459.74,
+      "descuento_pct": 0,
+      "importe": 459.74,
+      "flags": []
+    },
+    {
+      "linea": 171,
+      "fecha": "2026-09-04",
+      "codigo": "00911",
+      "unidades": 1,
+      "precio_unitario": 888.38,
+      "descuento_pct": 0,
+      "importe": 888.38,
+      "flags": []
+    },
+    {
+      "linea": 172,
+      "fecha": "2026-09-23",
+      "codigo": "00042",
+      "unidades": 6,
+      "precio_unitario": 285.59,
+      "descuento_pct": 5,
+      "importe": 1627.86,
+      "flags": []
+    },
+    {
+      "linea": 173,
+      "fecha": "2026-09-28",
+      "codigo": "00310",
+      "unidades": 5,
+      "precio_unitario": 1367.77,
+      "descuento_pct": 10,
+      "importe": 6154.97,
+      "flags": []
+    },
+    {
+      "linea": 174,
+      "fecha": "2026-09-20",
+      "codigo": "00107",
+      "unidades": 8,
+      "precio_unitario": 569.06,
+      "descuento_pct": 0,
+      "importe": 4552.48,
+      "flags": []
+    },
+    {
+      "linea": 175,
+      "fecha": "2026-09-10",
+      "codigo": "00777",
+      "unidades": 16,
+      "precio_unitario": 709.03,
+      "descuento_pct": 0,
+      "importe": 11344.48,
+      "flags": []
+    },
+    {
+      "linea": 176,
+      "fecha": "2026-09-06",
+      "codigo": "00107",
+      "unidades": 8,
+      "precio_unitario": 657.99,
+      "descuento_pct": 5,
+      "importe": 5000.72,
+      "flags": []
+    },
+    {
+      "linea": 177,
+      "fecha": "2026-09-28",
+      "codigo": "02001",
+      "unidades": 6,
+      "precio_unitario": 953.61,
+      "descuento_pct": 0,
+      "importe": 5721.66,
+      "flags": []
+    },
+    {
+      "linea": 178,
+      "fecha": "2026-09-27",
+      "codigo": "00088",
+      "unidades": 11,
+      "precio_unitario": 430.91,
+      "descuento_pct": 10,
+      "importe": 4266.01,
+      "flags": []
+    },
+    {
+      "linea": 179,
+      "fecha": "2026-09-12",
+      "codigo": "00019",
+      "unidades": 16,
+      "precio_unitario": 671.39,
+      "descuento_pct": 5,
+      "importe": 10205.13,
+      "flags": []
+    },
+    {
+      "linea": 180,
+      "fecha": "2026-09-06",
+      "codigo": "01205",
+      "unidades": 15,
+      "precio_unitario": 1209.53,
+      "descuento_pct": 0,
+      "importe": 18142.95,
+      "flags": []
+    },
+    {
+      "linea": 181,
+      "fecha": "2026-09-16",
+      "codigo": "02001",
+      "unidades": 11,
+      "precio_unitario": 1216.07,
+      "descuento_pct": 0,
+      "importe": 13376.77,
+      "flags": []
+    },
+    {
+      "linea": 182,
+      "fecha": "2026-09-01",
+      "codigo": "00042",
+      "unidades": 17,
+      "precio_unitario": 1062.55,
+      "descuento_pct": 5,
+      "importe": 17160.18,
+      "flags": []
+    },
+    {
+      "linea": 183,
+      "fecha": "2026-09-04",
+      "codigo": "00088",
+      "unidades": 9,
+      "precio_unitario": 937.62,
+      "descuento_pct": 0,
+      "importe": 8438.58,
+      "flags": []
+    },
+    {
+      "linea": 184,
+      "fecha": "2026-09-12",
+      "codigo": "01205",
+      "unidades": -18,
+      "precio_unitario": 590.75,
+      "descuento_pct": 10,
+      "importe": -9570.15,
+      "flags": [
+        "devolucion_negativa"
+      ]
+    },
+    {
+      "linea": 185,
+      "fecha": "2026-09-18",
+      "codigo": "00042",
+      "unidades": 18,
+      "precio_unitario": 106.6,
+      "descuento_pct": 10,
+      "importe": 1726.92,
+      "flags": []
+    },
+    {
+      "linea": 186,
+      "fecha": "2026-09-24",
+      "codigo": "00088",
+      "unidades": 15,
+      "precio_unitario": null,
+      "descuento_pct": 0,
+      "importe": null,
+      "flags": [
+        "precio_vacio"
+      ]
+    },
+    {
+      "linea": 187,
+      "fecha": "2026-09-13",
+      "codigo": "00450",
+      "unidades": 11,
+      "precio_unitario": 106.11,
+      "descuento_pct": 10,
+      "importe": 1050.49,
+      "flags": []
+    },
+    {
+      "linea": 188,
+      "fecha": "2026-09-07",
+      "codigo": "00107",
+      "unidades": 15,
+      "precio_unitario": 822.97,
+      "descuento_pct": null,
+      "importe": 12344.55,
+      "flags": [
+        "descuento_vacio"
+      ]
+    },
+    {
+      "linea": 189,
+      "fecha": "2026-09-05",
+      "codigo": "00777",
+      "unidades": 2,
+      "precio_unitario": 322.96,
+      "descuento_pct": 5,
+      "importe": 613.62,
+      "flags": []
+    },
+    {
+      "linea": 190,
+      "fecha": "2026-09-29",
+      "codigo": "00088",
+      "unidades": 13,
+      "precio_unitario": 44.15,
+      "descuento_pct": 0,
+      "importe": 573.95,
+      "flags": []
+    },
+    {
+      "linea": 191,
+      "fecha": "2026-09-02",
+      "codigo": "00019",
+      "unidades": 24,
+      "precio_unitario": 261.72,
+      "descuento_pct": 0,
+      "importe": 6281.28,
+      "flags": []
+    },
+    {
+      "linea": 192,
+      "fecha": "2026-09-10",
+      "codigo": "02001",
+      "unidades": 11,
+      "precio_unitario": 1248.39,
+      "descuento_pct": 10,
+      "importe": 12359.06,
+      "flags": []
+    },
+    {
+      "linea": 193,
+      "fecha": "2026-09-06",
+      "codigo": "00019",
+      "unidades": 7,
+      "precio_unitario": 154.35,
+      "descuento_pct": 0,
+      "importe": 1080.45,
+      "flags": []
+    },
+    {
+      "linea": 194,
+      "fecha": "2026-09-15",
+      "codigo": "00777",
+      "unidades": 18,
+      "precio_unitario": 1394.82,
+      "descuento_pct": 15,
+      "importe": 21340.75,
+      "flags": []
+    },
+    {
+      "linea": 195,
+      "fecha": "2026-09-20",
+      "codigo": "00088",
+      "unidades": 6,
+      "precio_unitario": 634.68,
+      "descuento_pct": 0,
+      "importe": 3808.08,
+      "flags": []
+    },
+    {
+      "linea": 196,
+      "fecha": "2026-09-07",
+      "codigo": "01205",
+      "unidades": 23,
+      "precio_unitario": 166.99,
+      "descuento_pct": 15,
+      "importe": 3264.65,
+      "flags": []
+    },
+    {
+      "linea": 197,
+      "fecha": "2026-09-05",
+      "codigo": "00107",
+      "unidades": 19,
+      "precio_unitario": 641.04,
+      "descuento_pct": 5,
+      "importe": 11570.77,
+      "flags": []
+    },
+    {
+      "linea": 198,
+      "fecha": "2026-09-11",
+      "codigo": "00450",
+      "unidades": 3,
+      "precio_unitario": 675.65,
+      "descuento_pct": 15,
+      "importe": 1722.91,
+      "flags": []
+    },
+    {
+      "linea": 199,
+      "fecha": "2026-09-24",
+      "codigo": "00911",
+      "unidades": 17,
+      "precio_unitario": 1285.09,
+      "descuento_pct": 5,
+      "importe": 20754.2,
+      "flags": []
+    },
+    {
+      "linea": 200,
+      "fecha": "2026-09-13",
+      "codigo": "00777",
+      "unidades": 9,
+      "precio_unitario": 534.29,
+      "descuento_pct": 5,
+      "importe": 4568.18,
+      "flags": []
+    }
+  ]
+}

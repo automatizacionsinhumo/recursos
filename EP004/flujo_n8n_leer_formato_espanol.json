@@ -1,0 +1,205 @@
+{
+  "id": "ep004b0000000002",
+  "name": "EP004 B — CSV de ventas a Excel leyendo el formato español",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c4000001-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/ventas.csv",
+        "options": {}
+      },
+      "id": "c4000001-0000-4000-8000-000000000002",
+      "name": "Leer ventas.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c4000001-0000-4000-8000-000000000003",
+      "name": "Extraer tabla del CSV",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Segundo intento (B): leer con el formato DECLARADO del archivo (español): punto de miles, coma decimal.\n// Vacío es dato ausente (null), no cero. Los códigos son texto. Las celdas ambiguas se marcan, no se adivinan.\nconst esNum = (s) => {\n  const t = String(s ?? '').trim();\n  if (t === '') return { v: null, aviso: 'vacío' };\n  if (/^-?\\d+,\\d{3}$/.test(t)) return { v: Number(t.replace(',', '.')), aviso: 'ambigua: tres cifras tras la coma (¿' + t.replace(',', '.') + ' o ' + t.replace(',', '') + '?)' };\n  if (!/^-?\\d{1,3}(\\.\\d{3})*(,\\d+)?$/.test(t) && !/^-?\\d+(,\\d+)?$/.test(t)) return { v: null, aviso: 'formato no reconocido: ' + t };\n  return { v: Number(t.replace(/\\./g, '').replace(',', '.')), aviso: null };\n};\nconst pct = (s) => { const t = String(s ?? '').replace('%', '').trim(); return t === '' ? { v: null, aviso: 'vacío' } : { v: Number(t.replace(',', '.')), aviso: null }; };\nconst fechaIso = (s) => { const m = String(s ?? '').match(/^(\\d{2})\\/(\\d{2})\\/(\\d{4})$/); return m ? m[3] + '-' + m[2] + '-' + m[1] : null; };\n// Excel (y otros) ponen una marca invisible al principio del archivo (BOM): la primera columna llega como «\\ufefffecha».\nconst sinBom = (o) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k.replace(/^\\ufeff/, ''), v]));\nconst filas = $input.all().map((it) => sinBom(it.json));\nconst out = [];\nfor (const r of filas) {\n  const u = esNum(r.unidades), p = esNum(r.precio_unitario), d = pct(r.descuento_pct), im = esNum(r.importe);\n  const avisos = [];\n  if (p.aviso) avisos.push('precio ' + p.aviso); if (d.aviso) avisos.push('descuento ' + d.aviso); if (im.aviso) avisos.push('importe ' + im.aviso); if (u.aviso) avisos.push('unidades ' + u.aviso);\n  if (u.v !== null && u.v < 0) avisos.push('devolución (unidades negativas)');\n  out.push({ json: { fecha: fechaIso(r.fecha), codigo: String(r.codigo), producto: r.producto, cliente: r.cliente, unidades: u.v, precio_unitario: p.v, descuento_pct: d.v, importe: im.v, estado: avisos.some((a) => /ambigua|no reconocido/.test(a)) ? 'revisar' : (im.v === null ? 'incompleta' : 'ok'), avisos: avisos.join('; ') } });\n}\nconst ok = out.filter((it) => it.json.importe !== null && it.json.estado !== 'revisar');\nconst total = Math.round(ok.reduce((s, it) => s + it.json.importe, 0) * 100) / 100;\nconst resumen = { fecha: 'RESUMEN', codigo: '', producto: 'filas: ' + out.length + ' · ok: ' + ok.length + ' · incompletas: ' + out.filter((it) => it.json.estado === 'incompleta').length + ' · revisar: ' + out.filter((it) => it.json.estado === 'revisar').length, cliente: '', unidades: null, precio_unitario: null, descuento_pct: null, importe: total, estado: 'total de las filas ok (sin ambiguas ni vacías)', avisos: '' };\nreturn [...out, { json: resumen }];"
+      },
+      "id": "c4000001-0000-4000-8000-000000000004",
+      "name": "Leer en formato español",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP004B.ventas.xlsx",
+          "headerRow": true,
+          "sheetName": "Ventas"
+        }
+      },
+      "id": "c4000001-0000-4000-8000-000000000005",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP004B.ventas.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c4000001-0000-4000-8000-000000000006",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP004B.observed.json"
+        }
+      },
+      "id": "c4000001-0000-4000-8000-000000000007",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP004B.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c4000001-0000-4000-8000-000000000008",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer ventas.csv",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer ventas.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla del CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla del CSV": {
+      "main": [
+        [
+          {
+            "node": "Leer en formato español",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer en formato español": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
