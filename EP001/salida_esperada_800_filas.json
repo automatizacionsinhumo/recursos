@@ -1,0 +1,5602 @@
+[
+  {
+    "record_id": "TEST-0001",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0001@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0002",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0002@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0003",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0003@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0004",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0004@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0005",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0005@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0006",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0006@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0007",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0007@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0008",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0008@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0009",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0009@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0010",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0010@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0011",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0011@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0012",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0012@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0013",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0013@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0014",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0014@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0015",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0015@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0016",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0016@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0017",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0017@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0018",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0018@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0019",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0019@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0020",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0020@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0021",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0021@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0022",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0022@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0023",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0023@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0024",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0024@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0025",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0025@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0026",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0026@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0027",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0027@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0028",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0028@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0029",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0029@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0030",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0030@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0031",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0031@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0032",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0032@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0033",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0033@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0034",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0034@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0035",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0035@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0036",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0036@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0037",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0037@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0038",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0038@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0039",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0039@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0040",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0040@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0041",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0041@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0042",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0042@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0043",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0043@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0044",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0044@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0045",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0045@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0046",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0046@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0047",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0047@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0048",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0048@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0049",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0049@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0050",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0050@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0051",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0051@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0052",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0052@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0053",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0053@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0054",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0054@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0055",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0055@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0056",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0056@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0057",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0057@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0058",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0058@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0059",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0059@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0060",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0060@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0061",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0061@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0062",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0062@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0063",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0063@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0064",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0064@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0065",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0065@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0066",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0066@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0067",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0067@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0068",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0068@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0069",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0069@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0070",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0070@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0071",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0071@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0072",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0072@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0073",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0073@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0074",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0074@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0075",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0075@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0076",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0076@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0077",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0077@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0078",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0078@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0079",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0079@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0080",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0080@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0081",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0081@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0082",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0082@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0083",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0083@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0084",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0084@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0085",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0085@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0086",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0086@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0087",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0087@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0088",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0088@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0089",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0089@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0090",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0090@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0091",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0091@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0092",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0092@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0093",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0093@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0094",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0094@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0095",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0095@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0096",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0096@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0097",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0097@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0098",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0098@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0099",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0099@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0100",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0100@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0101",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0101@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0102",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0102@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0103",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0103@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0104",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0104@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0105",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0105@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0106",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0106@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0107",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0107@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0108",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0108@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0109",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0109@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0110",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0110@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0111",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0111@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0112",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0112@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0113",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0113@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0114",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0114@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0115",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0115@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0116",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0116@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0117",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0117@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0118",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0118@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0119",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0119@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0120",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0120@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0121",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0121@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0122",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0122@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0123",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0123@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0124",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0124@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0125",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0125@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0126",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0126@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0127",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0127@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0128",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0128@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0129",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0129@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0130",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0130@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0131",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0131@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0132",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0132@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0133",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0133@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0134",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0134@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0135",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0135@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0136",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0136@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0137",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0137@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0138",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0138@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0139",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0139@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0140",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0140@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0141",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0141@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0142",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0142@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0143",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0143@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0144",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0144@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0145",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0145@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0146",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0146@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0147",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0147@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0148",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0148@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0149",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0149@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0150",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0150@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0151",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0151@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0152",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0152@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0153",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0153@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0154",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0154@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0155",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0155@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0156",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0156@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0157",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0157@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0158",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0158@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0159",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0159@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0160",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0160@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0161",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0161@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0162",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0162@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0163",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0163@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0164",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0164@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0165",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0165@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0166",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0166@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0167",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0167@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0168",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0168@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0169",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0169@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0170",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0170@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0171",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0171@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0172",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0172@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0173",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0173@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0174",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0174@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0175",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0175@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0176",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0176@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0177",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0177@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0178",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0178@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0179",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0179@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0180",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0180@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0181",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0181@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0182",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0182@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0183",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0183@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0184",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0184@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0185",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0185@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0186",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0186@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0187",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0187@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0188",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0188@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0189",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0189@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0190",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0190@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0191",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0191@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0192",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0192@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0193",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0193@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0194",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0194@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0195",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0195@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0196",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0196@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0197",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0197@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0198",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0198@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0199",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0199@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0200",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0200@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0201",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0201@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0202",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0202@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0203",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0203@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0204",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0204@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0205",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0205@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0206",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0206@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0207",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0207@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0208",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0208@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0209",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0209@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0210",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0210@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0211",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0211@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0212",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0212@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0213",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0213@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0214",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0214@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0215",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0215@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0216",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0216@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0217",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0217@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0218",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0218@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0219",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0219@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0220",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0220@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0221",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0221@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0222",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0222@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0223",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0223@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0224",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0224@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0225",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0225@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0226",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0226@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0227",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0227@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0228",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0228@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0229",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0229@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0230",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0230@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0231",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0231@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0232",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0232@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0233",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0233@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0234",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0234@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0235",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0235@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0236",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0236@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0237",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0237@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0238",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0238@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0239",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0239@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0240",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0240@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0241",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0241@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0242",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0242@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0243",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0243@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0244",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0244@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0245",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0245@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0246",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0246@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0247",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0247@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0248",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0248@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0249",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0249@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0250",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0250@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0251",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0251@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0252",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0252@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0253",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0253@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0254",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0254@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0255",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0255@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0256",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0256@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0257",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0257@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0258",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0258@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0259",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0259@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0260",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0260@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0261",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0261@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0262",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0262@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0263",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0263@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0264",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0264@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0265",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0265@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0266",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0266@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0267",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0267@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0268",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0268@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0269",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0269@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0270",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0270@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0271",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0271@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0272",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0272@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0273",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0273@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0274",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0274@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0275",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0275@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0276",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0276@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0277",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0277@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0278",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0278@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0279",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0279@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0280",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0280@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0281",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0281@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0282",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0282@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0283",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0283@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0284",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0284@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0285",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0285@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0286",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0286@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0287",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0287@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0288",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0288@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0289",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0289@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0290",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0290@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0291",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0291@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0292",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0292@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0293",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0293@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0294",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0294@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0295",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0295@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0296",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0296@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0297",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0297@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0298",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0298@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0299",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0299@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0300",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0300@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0301",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0301@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0302",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0302@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0303",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0303@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0304",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0304@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0305",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0305@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0306",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0306@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0307",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0307@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0308",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0308@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0309",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0309@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0310",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0310@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0311",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0311@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0312",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0312@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0313",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0313@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0314",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0314@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0315",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0315@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0316",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0316@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0317",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0317@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0318",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0318@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0319",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0319@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0320",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0320@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0321",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0321@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0322",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0322@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0323",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0323@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0324",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0324@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0325",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0325@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0326",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0326@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0327",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0327@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0328",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0328@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0329",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0329@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0330",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0330@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0331",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0331@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0332",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0332@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0333",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0333@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0334",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0334@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0335",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0335@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0336",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0336@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0337",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0337@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0338",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0338@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0339",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0339@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0340",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0340@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0341",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0341@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0342",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0342@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0343",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0343@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0344",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0344@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0345",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0345@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0346",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0346@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0347",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0347@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0348",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0348@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0349",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0349@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0350",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0350@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0351",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0351@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0352",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0352@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0353",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0353@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0354",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0354@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0355",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0355@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0356",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0356@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0357",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0357@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0358",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0358@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0359",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0359@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0360",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0360@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0361",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0361@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0362",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0362@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0363",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0363@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0364",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0364@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0365",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0365@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0366",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0366@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0367",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0367@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0368",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0368@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0369",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0369@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0370",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0370@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0371",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0371@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0372",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0372@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0373",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0373@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0374",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0374@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0375",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0375@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0376",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0376@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0377",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0377@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0378",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0378@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0379",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0379@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0380",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0380@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0381",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0381@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0382",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0382@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0383",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0383@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0384",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0384@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0385",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0385@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0386",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0386@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0387",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0387@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0388",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0388@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0389",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0389@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0390",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0390@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0391",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0391@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0392",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0392@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0393",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0393@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0394",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0394@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0395",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0395@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0396",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0396@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0397",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0397@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0398",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0398@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0399",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0399@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0400",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0400@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0401",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0401@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0402",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0402@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0403",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0403@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0404",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0404@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0405",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0405@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0406",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0406@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0407",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0407@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0408",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0408@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0409",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0409@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0410",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0410@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0411",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0411@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0412",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0412@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0413",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0413@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0414",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0414@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0415",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0415@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0416",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0416@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0417",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0417@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0418",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0418@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0419",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0419@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0420",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0420@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0421",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0421@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0422",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0422@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0423",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0423@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0424",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0424@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0425",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0425@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0426",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0426@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0427",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0427@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0428",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0428@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0429",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0429@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0430",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0430@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0431",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0431@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0432",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0432@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0433",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0433@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0434",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0434@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0435",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0435@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0436",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0436@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0437",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0437@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0438",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0438@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0439",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0439@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0440",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0440@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0441",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0441@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0442",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0442@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0443",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0443@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0444",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0444@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0445",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0445@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0446",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0446@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0447",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0447@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0448",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0448@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0449",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0449@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0450",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0450@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0451",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0451@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0452",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0452@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0453",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0453@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0454",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0454@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0455",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0455@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0456",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0456@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0457",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0457@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0458",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0458@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0459",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0459@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0460",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0460@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0461",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0461@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0462",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0462@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0463",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0463@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0464",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0464@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0465",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0465@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0466",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0466@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0467",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0467@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0468",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0468@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0469",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0469@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0470",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0470@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0471",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0471@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0472",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0472@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0473",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0473@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0474",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0474@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0475",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0475@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0476",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0476@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0477",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0477@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0478",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0478@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0479",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0479@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0480",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0480@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0481",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0481@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0482",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0482@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0483",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0483@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0484",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0484@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0485",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0485@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0486",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0486@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0487",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0487@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0488",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0488@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0489",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0489@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0490",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0490@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0491",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0491@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0492",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0492@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0493",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0493@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0494",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0494@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0495",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0495@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0496",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0496@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0497",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0497@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0498",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0498@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0499",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0499@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0500",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0500@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0501",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0501@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0502",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0502@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0503",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0503@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0504",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0504@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0505",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0505@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0506",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0506@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0507",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0507@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0508",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0508@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0509",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0509@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0510",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0510@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0511",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0511@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0512",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0512@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0513",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0513@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0514",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0514@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0515",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0515@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0516",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0516@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0517",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0517@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0518",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0518@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0519",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0519@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0520",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0520@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0521",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0521@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0522",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0522@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0523",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0523@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0524",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0524@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0525",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0525@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0526",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0526@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0527",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0527@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0528",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0528@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0529",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0529@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0530",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0530@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0531",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0531@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0532",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0532@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0533",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0533@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0534",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0534@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0535",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0535@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0536",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0536@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0537",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0537@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0538",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0538@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0539",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0539@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0540",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0540@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0541",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0541@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0542",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0542@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0543",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0543@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0544",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0544@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0545",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0545@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0546",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0546@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0547",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0547@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0548",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0548@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0549",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0549@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0550",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0550@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0551",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0551@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0552",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0552@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0553",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0553@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0554",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0554@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0555",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0555@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0556",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0556@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0557",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0557@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0558",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0558@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0559",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0559@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0560",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0560@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0561",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0561@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0562",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0562@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0563",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0563@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0564",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0564@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0565",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0565@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0566",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0566@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0567",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0567@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0568",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0568@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0569",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0569@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0570",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0570@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0571",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0571@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0572",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0572@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0573",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0573@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0574",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0574@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0575",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0575@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0576",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0576@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0577",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0577@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0578",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0578@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0579",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0579@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0580",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0580@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0581",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0581@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0582",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0582@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0583",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0583@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0584",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0584@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0585",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0585@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0586",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0586@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0587",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0587@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0588",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0588@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0589",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0589@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0590",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0590@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0591",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0591@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0592",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0592@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0593",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0593@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0594",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0594@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0595",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0595@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0596",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0596@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0597",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0597@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0598",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0598@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0599",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0599@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0600",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0600@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0601",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0601@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0602",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0602@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0603",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0603@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0604",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0604@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0605",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0605@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0606",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0606@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0607",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0607@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0608",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0608@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0609",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0609@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0610",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0610@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0611",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0611@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0612",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0612@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0613",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0613@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0614",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0614@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0615",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0615@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0616",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0616@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0617",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0617@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0618",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0618@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0619",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0619@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0620",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0620@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0621",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0621@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0622",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0622@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0623",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0623@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0624",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0624@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0625",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0625@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0626",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0626@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0627",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0627@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0628",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0628@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0629",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0629@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0630",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0630@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0631",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0631@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0632",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0632@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0633",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0633@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0634",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0634@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0635",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0635@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0636",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0636@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0637",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0637@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0638",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0638@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0639",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0639@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0640",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0640@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0641",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0641@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0642",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0642@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0643",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0643@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0644",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0644@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0645",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0645@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0646",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0646@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0647",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0647@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0648",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0648@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0649",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0649@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0650",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0650@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0651",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0651@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0652",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0652@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0653",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0653@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0654",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0654@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0655",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0655@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0656",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0656@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0657",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0657@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0658",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0658@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0659",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0659@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0660",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0660@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0661",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0661@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0662",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0662@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0663",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0663@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0664",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0664@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0665",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0665@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0666",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0666@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0667",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0667@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0668",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0668@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0669",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0669@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0670",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0670@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0671",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0671@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0672",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0672@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0673",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0673@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0674",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0674@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0675",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0675@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0676",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0676@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0677",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0677@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0678",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0678@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0679",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0679@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0680",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0680@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0681",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0681@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0682",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0682@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0683",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0683@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0684",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0684@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0685",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0685@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0686",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0686@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0687",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0687@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0688",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0688@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0689",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0689@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0690",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0690@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0691",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0691@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0692",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0692@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0693",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0693@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0694",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0694@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0695",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0695@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0696",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0696@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0697",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0697@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0698",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0698@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0699",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0699@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0700",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0700@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0701",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0701@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0702",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0702@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0703",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0703@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0704",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0704@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0705",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0705@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0706",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0706@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0707",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0707@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0708",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0708@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0709",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0709@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0710",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0710@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0711",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0711@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0712",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0712@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0713",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0713@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0714",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0714@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0715",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0715@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0716",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0716@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0717",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0717@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0718",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0718@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0719",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0719@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0720",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0720@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0721",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0721@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0722",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0722@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0723",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0723@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0724",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0724@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0725",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0725@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0726",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0726@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0727",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0727@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0728",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0728@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0729",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0729@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0730",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0730@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0731",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0731@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0732",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0732@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0733",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0733@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0734",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0734@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0735",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0735@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0736",
+    "department": "AREA-2",
+    "units": 9,
+    "contact": "registro0736@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0737",
+    "department": "AREA-3",
+    "units": 10,
+    "contact": "registro0737@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0738",
+    "department": "AREA-4",
+    "units": 11,
+    "contact": "registro0738@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0739",
+    "department": "AREA-5",
+    "units": 12,
+    "contact": "registro0739@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0740",
+    "department": "AREA-1",
+    "units": 13,
+    "contact": "registro0740@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0741",
+    "department": "AREA-2",
+    "units": 1,
+    "contact": "registro0741@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0742",
+    "department": "AREA-3",
+    "units": 2,
+    "contact": "registro0742@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0743",
+    "department": "AREA-4",
+    "units": 3,
+    "contact": "registro0743@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0744",
+    "department": "AREA-5",
+    "units": 4,
+    "contact": "registro0744@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0745",
+    "department": "AREA-1",
+    "units": 5,
+    "contact": "registro0745@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0746",
+    "department": "AREA-2",
+    "units": 6,
+    "contact": "registro0746@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0747",
+    "department": "AREA-3",
+    "units": 7,
+    "contact": "registro0747@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0748",
+    "department": "AREA-4",
+    "units": 8,
+    "contact": "registro0748@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0749",
+    "department": "AREA-5",
+    "units": 9,
+    "contact": "registro0749@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0750",
+    "department": "AREA-1",
+    "units": 10,
+    "contact": "registro0750@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0751",
+    "department": "AREA-2",
+    "units": 11,
+    "contact": "registro0751@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0752",
+    "department": "AREA-3",
+    "units": 12,
+    "contact": "registro0752@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0753",
+    "department": "AREA-4",
+    "units": 13,
+    "contact": "registro0753@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0754",
+    "department": "AREA-5",
+    "units": 1,
+    "contact": "registro0754@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0755",
+    "department": "AREA-1",
+    "units": 2,
+    "contact": "registro0755@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0756",
+    "department": "AREA-2",
+    "units": 3,
+    "contact": "registro0756@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0757",
+    "department": "AREA-3",
+    "units": 4,
+    "contact": "registro0757@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0758",
+    "department": "AREA-4",
+    "units": 5,
+    "contact": "registro0758@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0759",
+    "department": "AREA-5",
+    "units": 6,
+    "contact": "registro0759@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0760",
+    "department": "AREA-1",
+    "units": 7,
+    "contact": "registro0760@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0761",
+    "department": "AREA-2",
+    "units": 8,
+    "contact": "registro0761@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0762",
+    "department": "AREA-3",
+    "units": 9,
+    "contact": "registro0762@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0763",
+    "department": "AREA-4",
+    "units": 10,
+    "contact": "registro0763@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0764",
+    "department": "AREA-5",
+    "units": 11,
+    "contact": "registro0764@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0765",
+    "department": "AREA-1",
+    "units": 12,
+    "contact": "registro0765@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0766",
+    "department": "AREA-2",
+    "units": 13,
+    "contact": "registro0766@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0767",
+    "department": "AREA-3",
+    "units": 1,
+    "contact": "registro0767@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0768",
+    "department": "AREA-4",
+    "units": 2,
+    "contact": "registro0768@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0769",
+    "department": "AREA-5",
+    "units": 3,
+    "contact": "registro0769@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0770",
+    "department": "AREA-1",
+    "units": 4,
+    "contact": "registro0770@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0771",
+    "department": "AREA-2",
+    "units": 5,
+    "contact": "registro0771@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0772",
+    "department": "AREA-3",
+    "units": 6,
+    "contact": "registro0772@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0773",
+    "department": "AREA-4",
+    "units": 7,
+    "contact": "registro0773@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0774",
+    "department": "AREA-5",
+    "units": 8,
+    "contact": "registro0774@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0775",
+    "department": "AREA-1",
+    "units": 9,
+    "contact": "registro0775@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0776",
+    "department": "AREA-2",
+    "units": 10,
+    "contact": "registro0776@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0777",
+    "department": "AREA-3",
+    "units": 11,
+    "contact": "registro0777@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0778",
+    "department": "AREA-4",
+    "units": 12,
+    "contact": "registro0778@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0779",
+    "department": "AREA-5",
+    "units": 13,
+    "contact": "registro0779@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0780",
+    "department": "AREA-1",
+    "units": 1,
+    "contact": "registro0780@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0781",
+    "department": "AREA-2",
+    "units": 2,
+    "contact": "registro0781@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0782",
+    "department": "AREA-3",
+    "units": 3,
+    "contact": "registro0782@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0783",
+    "department": "AREA-4",
+    "units": 4,
+    "contact": "registro0783@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0784",
+    "department": "AREA-5",
+    "units": 5,
+    "contact": "registro0784@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0785",
+    "department": "AREA-1",
+    "units": 6,
+    "contact": "registro0785@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0786",
+    "department": "AREA-2",
+    "units": 7,
+    "contact": "registro0786@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0787",
+    "department": "AREA-3",
+    "units": 8,
+    "contact": "registro0787@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0788",
+    "department": "AREA-4",
+    "units": 9,
+    "contact": "registro0788@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0789",
+    "department": "AREA-5",
+    "units": 10,
+    "contact": "registro0789@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0790",
+    "department": "AREA-1",
+    "units": 11,
+    "contact": "registro0790@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0791",
+    "department": "AREA-2",
+    "units": 12,
+    "contact": "registro0791@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0792",
+    "department": "AREA-3",
+    "units": 13,
+    "contact": "registro0792@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0793",
+    "department": "AREA-4",
+    "units": 1,
+    "contact": "registro0793@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0794",
+    "department": "AREA-5",
+    "units": 2,
+    "contact": "registro0794@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0795",
+    "department": "AREA-1",
+    "units": 3,
+    "contact": "registro0795@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0796",
+    "department": "AREA-2",
+    "units": 4,
+    "contact": "registro0796@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0797",
+    "department": "AREA-3",
+    "units": 5,
+    "contact": "registro0797@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0798",
+    "department": "AREA-4",
+    "units": 6,
+    "contact": "registro0798@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0799",
+    "department": "AREA-5",
+    "units": 7,
+    "contact": "registro0799@example.invalid",
+    "synthetic": true
+  },
+  {
+    "record_id": "TEST-0800",
+    "department": "AREA-1",
+    "units": 8,
+    "contact": "registro0800@example.invalid",
+    "synthetic": true
+  }
+]
