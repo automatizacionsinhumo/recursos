@@ -1,0 +1,203 @@
+{
+  "id": "ep002b0000000002",
+  "name": "EP002 B — Facturas PDF a Excel con comprobaciones",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "b2000001-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/facturas/*.pdf",
+        "options": {}
+      },
+      "id": "b2000001-0000-4000-8000-000000000002",
+      "name": "Leer facturas",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "options": {
+          "keepSource": "both"
+        }
+      },
+      "id": "b2000001-0000-4000-8000-000000000003",
+      "name": "Extraer texto del PDF",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Segundo intento (B): mismos importes, pero con número español bien leído y tres comprobaciones.\n// Importe español: \"1.890,40\" → 1890.40 (el punto separa miles; la coma, decimales).\nconst num = (s) => { if (s == null) return null; const n = Number(s.replace(/\\./g, '').replace(',', '.')); return Number.isFinite(n) ? n : null; };\nconst out = [];\nfor (const item of $input.all()) {\n  const t = item.json.text || '';\n  const row = { archivo: item.json.fileName, estado: null, motivo: null, base: null, iva: null, total: null, iva_calculado: null, diferencia: null, numero: null, fecha: null, proveedor: null };\n  if (!t.trim()) { row.estado = 'sin_texto'; row.motivo = 'El PDF no tiene capa de texto (imagen escaneada): requiere OCR. No se inventa ningún importe.'; out.push({ json: row }); continue; }\n  row.numero = (t.match(/N[ºo°]\\s*(\\d{4}\\/\\d{3})/) || [])[1] || null;\n  const f = t.match(/Fecha:\\s*(\\d{2})\\/(\\d{2})\\/(\\d{4})/);\n  row.fecha = f ? f[3] + '-' + f[2] + '-' + f[1] : null;\n  const lines = t.split('\\n').map((l) => l.trim()).filter(Boolean);\n  const iNif = lines.findIndex((l) => /^NIF\\s+[A-Z]\\d{8}$/.test(l) && !/B99999999/.test(l));\n  row.proveedor = iNif > 0 ? lines[iNif - 1] : null;\n  row.base = num((t.match(/(?:Base imponible|Importe neto)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  row.iva = num((t.match(/(?:IVA\\s*\\(\\d+\\s*%\\)|Cuota IVA\\s*\\d+%)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  row.total = num((t.match(/(?:TOTAL|Importe total)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  const faltan = ['numero', 'fecha', 'proveedor', 'base', 'iva', 'total'].filter((k) => row[k] == null);\n  if (faltan.length) { row.estado = 'revisar'; row.motivo = 'No se encontró: ' + faltan.join(', '); out.push({ json: row }); continue; }\n  row.iva_calculado = Math.round((row.base + row.iva) * 100) / 100;\n  row.diferencia = Math.round((row.total - row.iva_calculado) * 100) / 100;\n  if (Math.abs(row.diferencia) > 0.01) { row.estado = 'revisar'; row.motivo = 'No cuadra: base + IVA = ' + row.iva_calculado.toFixed(2) + ' pero el total impreso es ' + row.total.toFixed(2); }\n  else { row.estado = 'ok'; row.motivo = 'Base + IVA = total; los seis campos encontrados'; }\n  out.push({ json: row });\n}\n// Criba: primero lo que hay que mirar (sin_texto, revisar) y después las correctas; dentro de cada grupo, por archivo.\nconst orden = { sin_texto: 0, revisar: 1, ok: 2 };\nout.sort((a, b) => (orden[a.json.estado] - orden[b.json.estado]) || a.json.archivo.localeCompare(b.json.archivo));\nreturn out;"
+      },
+      "id": "b2000001-0000-4000-8000-000000000004",
+      "name": "Sacar importes y comprobar",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP002B.facturas.xlsx",
+          "headerRow": true,
+          "sheetName": "Facturas"
+        }
+      },
+      "id": "b2000001-0000-4000-8000-000000000005",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP002B.facturas.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "b2000001-0000-4000-8000-000000000006",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP002B.observed.json"
+        }
+      },
+      "id": "b2000001-0000-4000-8000-000000000007",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP002B.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "b2000001-0000-4000-8000-000000000008",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer facturas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer facturas": {
+      "main": [
+        [
+          {
+            "node": "Extraer texto del PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer texto del PDF": {
+      "main": [
+        [
+          {
+            "node": "Sacar importes y comprobar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sacar importes y comprobar": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

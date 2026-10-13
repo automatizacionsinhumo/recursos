@@ -1,0 +1,203 @@
+{
+  "id": "ep002a0000000001",
+  "name": "EP002 A — Facturas PDF a Excel (primer intento, sin comprobar)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "b2000000-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/facturas/*.pdf",
+        "options": {}
+      },
+      "id": "b2000000-0000-4000-8000-000000000002",
+      "name": "Leer facturas",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "options": {
+          "keepSource": "both"
+        }
+      },
+      "id": "b2000000-0000-4000-8000-000000000003",
+      "name": "Extraer texto del PDF",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Primer intento (A): sacar los importes del texto con expresiones regulares, sin comprobar nada.\nconst num = (s) => { if (s == null) return null; const n = Number(s.replace(/\\./g, '').replace(',', '.')); return Number.isFinite(n) ? n : null; };\nconst out = [];\nfor (const item of $input.all()) {\n  const t = item.json.text || '';\n  const numero = (t.match(/N[ºo°]\\s*(\\d{4}\\/\\d{3})/) || [])[1] || null;\n  const f = t.match(/Fecha:\\s*(\\d{2})\\/(\\d{2})\\/(\\d{4})/);\n  const fecha = f ? f[3] + '-' + f[2] + '-' + f[1] : null;\n  const lines = t.split('\\n').map((l) => l.trim()).filter(Boolean);\n  const iNif = lines.findIndex((l) => /^NIF\\s+[A-Z]\\d{8}$/.test(l) && !/B99999999/.test(l));\n  const proveedor = iNif > 0 ? lines[iNif - 1] : null;\n  const base = num((t.match(/(?:Base imponible|Importe neto)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  const iva = num((t.match(/(?:IVA\\s*\\(\\d+\\s*%\\)|Cuota IVA\\s*\\d+%)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  const total = num((t.match(/(?:TOTAL|Importe total)\\s*([\\d.,]+)\\s*€/) || [])[1]);\n  out.push({ json: { archivo: item.json.fileName, base, iva, total, numero, fecha, proveedor, estado: 'procesada' } });\n}\nreturn out;"
+      },
+      "id": "b2000000-0000-4000-8000-000000000004",
+      "name": "Sacar los importes",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP002A.facturas.xlsx",
+          "headerRow": true,
+          "sheetName": "Facturas"
+        }
+      },
+      "id": "b2000000-0000-4000-8000-000000000005",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP002A.facturas.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "b2000000-0000-4000-8000-000000000006",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP002A.observed.json"
+        }
+      },
+      "id": "b2000000-0000-4000-8000-000000000007",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP002A.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "b2000000-0000-4000-8000-000000000008",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer facturas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer facturas": {
+      "main": [
+        [
+          {
+            "node": "Extraer texto del PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer texto del PDF": {
+      "main": [
+        [
+          {
+            "node": "Sacar los importes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sacar los importes": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
