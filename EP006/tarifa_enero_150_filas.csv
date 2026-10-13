@@ -1,0 +1,151 @@
+codigo;producto;categoria;precio;stock;proveedor
+00001;Papel A4 80 g (caja);Papel;79,81;107;Suministros Ejemplo, S.L.
+00002;Papel A4 80 g (caja) · modelo 2;Papel;70,26;102;Oficina Ficticia, S.A.
+00003;Papel A4 80 g (caja) · modelo 3;Papel;72,94;34;Oficina Ficticia, S.A.
+00004;Papel A4 80 g (caja) · modelo 4;Papel;237,79;25;Oficina Ficticia, S.A.
+00005;Papel A4 80 g (caja) · modelo 5;Papel;244,95;65;Distribuciones Demo
+00006;Papel A3 90 g (paquete);Papel;306,65;37;Oficina Ficticia, S.A.
+00007;Papel A3 90 g (paquete) · modelo 2;Papel;187,81;35;Papelería Simulada
+00008;Papel A3 90 g (paquete) · modelo 3;Papel;396,49;36;Suministros Ejemplo, S.L.
+00009;Papel A3 90 g (paquete) · modelo 4;Papel;335,52;62;Distribuciones Demo
+00010;Papel A3 90 g (paquete) · modelo 5;Papel;304,98;86;Suministros Ejemplo, S.L.
+00011;Papel reciclado A4;Papel;234,68;41;Suministros Ejemplo, S.L.
+00012;Papel reciclado A4 · modelo 2;Papel;315,48;44;Distribuciones Demo
+00013;Papel reciclado A4 · modelo 3;Papel;94,84;98;Almacén Inventado
+00014;Papel reciclado A4 · modelo 4;Papel;186,63;91;Distribuciones Demo
+00015;Papel reciclado A4 · modelo 5;Papel;76,16;107;Distribuciones Demo
+00016;Cartulina de colores;Papel;333,34;101;Suministros Ejemplo, S.L.
+00017;Cartulina de colores · modelo 2;Papel;239,19;101;Papelería Simulada
+00018;Cartulina de colores · modelo 3;Papel;333,15;96;Papelería Simulada
+00019;Cartulina de colores · modelo 4;Papel;206,19;45;Almacén Inventado
+00020;Cartulina de colores · modelo 5;Papel;54,74;27;Distribuciones Demo
+00021;Etiquetas adhesivas (100);Papel;170,13;21;Distribuciones Demo
+00022;Etiquetas adhesivas (100) · modelo 2;Papel;376,35;79;Oficina Ficticia, S.A.
+00023;Etiquetas adhesivas (100) · modelo 3;Papel;321,94;117;Distribuciones Demo
+00024;Etiquetas adhesivas (100) · modelo 4;Papel;289,03;6;Papelería Simulada
+00025;Etiquetas adhesivas (100) · modelo 5;Papel;112,20;17;Papelería Simulada
+00026;Bolígrafos azules (caja 50);Escritura;41,29;51;Distribuciones Demo
+00027;Bolígrafos azules (caja 50) · modelo 2;Escritura;27,83;16;Papelería Simulada
+00028;Bolígrafos azules (caja 50) · modelo 3;Escritura;140,51;16;Almacén Inventado
+00029;Bolígrafos azules (caja 50) · modelo 4;Escritura;299,18;34;Suministros Ejemplo, S.L.
+00030;Bolígrafos azules (caja 50) · modelo 5;Escritura;100,44;35;Suministros Ejemplo, S.L.
+00031;Rotuladores permanentes;Escritura;234,01;93;Almacén Inventado
+00032;Rotuladores permanentes · modelo 2;Escritura;191,00;107;Almacén Inventado
+00033;Rotuladores permanentes · modelo 3;Escritura;53,44;17;Distribuciones Demo
+00034;Rotuladores permanentes · modelo 4;Escritura;212,57;41;Papelería Simulada
+00035;Rotuladores permanentes · modelo 5;Escritura;55,76;1;Papelería Simulada
+00036;Lápices HB (12);Escritura;394,17;93;Oficina Ficticia, S.A.
+00037;Lápices HB (12) · modelo 2;Escritura;274,86;35;Distribuciones Demo
+00038;Lápices HB (12) · modelo 3;Escritura;246,23;90;Distribuciones Demo
+00039;Lápices HB (12) · modelo 4;Escritura;326,36;82;Almacén Inventado
+00040;Lápices HB (12) · modelo 5;Escritura;248,72;54;Distribuciones Demo
+00041;Marcadores fluorescentes;Escritura;109,56;99;Papelería Simulada
+00042;Marcadores fluorescentes · modelo 2;Escritura;73,12;77;Distribuciones Demo
+00043;Marcadores fluorescentes · modelo 3;Escritura;66,44;55;Almacén Inventado
+00044;Marcadores fluorescentes · modelo 4;Escritura;238,68;85;Suministros Ejemplo, S.L.
+00045;Marcadores fluorescentes · modelo 5;Escritura;58,26;52;Oficina Ficticia, S.A.
+00046;Portaminas 0,5;Escritura;29,74;40;Almacén Inventado
+00047;Portaminas 0,5 · modelo 2;Escritura;197,22;97;Almacén Inventado
+00048;Portaminas 0,5 · modelo 3;Escritura;253,33;81;Distribuciones Demo
+00049;Portaminas 0,5 · modelo 4;Escritura;316,63;86;Oficina Ficticia, S.A.
+00050;Portaminas 0,5 · modelo 5;Escritura;400,28;13;Almacén Inventado
+00051;Archivadores (pack 10);Archivo;303,62;23;Papelería Simulada
+00052;Archivadores (pack 10) · modelo 2;Archivo;246,30;46;Oficina Ficticia, S.A.
+00053;Archivadores (pack 10) · modelo 3;Archivo;315,00;14;Papelería Simulada
+00054;Archivadores (pack 10) · modelo 4;Archivo;400,91;48;Distribuciones Demo
+00055;Archivadores (pack 10) · modelo 5;Archivo;294,14;8;Distribuciones Demo
+00056;Carpetas colgantes;Archivo;367,76;45;Distribuciones Demo
+00057;Carpetas colgantes · modelo 2;Archivo;181,74;90;Oficina Ficticia, S.A.
+00058;Carpetas colgantes · modelo 3;Archivo;190,10;69;Suministros Ejemplo, S.L.
+00059;Carpetas colgantes · modelo 4;Archivo;270,02;11;Oficina Ficticia, S.A.
+00060;Carpetas colgantes · modelo 5;Archivo;384,47;39;Suministros Ejemplo, S.L.
+00061;Fundas de plástico (100);Archivo;154,97;102;Almacén Inventado
+00062;Fundas de plástico (100) · modelo 2;Archivo;153,66;48;Suministros Ejemplo, S.L.
+00063;Fundas de plástico (100) · modelo 3;Archivo;308,73;94;Oficina Ficticia, S.A.
+00064;Fundas de plástico (100) · modelo 4;Archivo;292,03;34;Papelería Simulada
+00065;Fundas de plástico (100) · modelo 5;Archivo;320,59;83;Papelería Simulada
+00066;Cajas de archivo definitivo;Archivo;102,49;70;Distribuciones Demo
+00067;Cajas de archivo definitivo · modelo 2;Archivo;108,85;85;Oficina Ficticia, S.A.
+00068;Cajas de archivo definitivo · modelo 3;Archivo;31,62;43;Distribuciones Demo
+00069;Cajas de archivo definitivo · modelo 4;Archivo;122,87;54;Papelería Simulada
+00070;Cajas de archivo definitivo · modelo 5;Archivo;248,76;78;Almacén Inventado
+00071;Separadores de cartón;Archivo;98,09;90;Oficina Ficticia, S.A.
+00072;Separadores de cartón · modelo 2;Archivo;162,97;28;Oficina Ficticia, S.A.
+00073;Separadores de cartón · modelo 3;Archivo;210,19;61;Suministros Ejemplo, S.L.
+00074;Separadores de cartón · modelo 4;Archivo;315,31;58;Suministros Ejemplo, S.L.
+00075;Separadores de cartón · modelo 5;Archivo;35,59;102;Suministros Ejemplo, S.L.
+00076;Silla de oficina básica;Mobiliario;143,49;52;Suministros Ejemplo, S.L.
+00077;Silla de oficina básica · modelo 2;Mobiliario;227,77;105;Oficina Ficticia, S.A.
+00078;Silla de oficina básica · modelo 3;Mobiliario;168,26;79;Almacén Inventado
+00079;Silla de oficina básica · modelo 4;Mobiliario;293,66;53;Suministros Ejemplo, S.L.
+00080;Silla de oficina básica · modelo 5;Mobiliario;271,00;19;Suministros Ejemplo, S.L.
+00081;Mesa de trabajo 120 cm;Mobiliario;32,48;118;Oficina Ficticia, S.A.
+00082;Mesa de trabajo 120 cm · modelo 2;Mobiliario;179,87;73;Distribuciones Demo
+00083;Mesa de trabajo 120 cm · modelo 3;Mobiliario;216,22;16;Suministros Ejemplo, S.L.
+00084;Mesa de trabajo 120 cm · modelo 4;Mobiliario;387,00;41;Papelería Simulada
+00085;Mesa de trabajo 120 cm · modelo 5;Mobiliario;208,93;51;Papelería Simulada
+00086;Lámpara de escritorio;Mobiliario;225,07;42;Distribuciones Demo
+00087;Lámpara de escritorio · modelo 2;Mobiliario;146,50;11;Papelería Simulada
+00088;Lámpara de escritorio · modelo 3;Mobiliario;11,98;71;Distribuciones Demo
+00089;Lámpara de escritorio · modelo 4;Mobiliario;165,78;59;Distribuciones Demo
+00090;Lámpara de escritorio · modelo 5;Mobiliario;238,27;28;Suministros Ejemplo, S.L.
+00091;Reposapiés ajustable;Mobiliario;178,60;1;Almacén Inventado
+00092;Reposapiés ajustable · modelo 2;Mobiliario;273,44;107;Oficina Ficticia, S.A.
+00093;Reposapiés ajustable · modelo 3;Mobiliario;202,23;67;Suministros Ejemplo, S.L.
+00094;Reposapiés ajustable · modelo 4;Mobiliario;306,51;105;Distribuciones Demo
+00095;Reposapiés ajustable · modelo 5;Mobiliario;335,31;67;Distribuciones Demo
+00096;Perchero metálico;Mobiliario;282,39;56;Almacén Inventado
+00097;Perchero metálico · modelo 2;Mobiliario;32,22;21;Almacén Inventado
+00098;Perchero metálico · modelo 3;Mobiliario;313,69;12;Oficina Ficticia, S.A.
+00099;Perchero metálico · modelo 4;Mobiliario;197,83;113;Suministros Ejemplo, S.L.
+00100;Perchero metálico · modelo 5;Mobiliario;94,60;36;Suministros Ejemplo, S.L.
+00101;Monitor 24 pulgadas;Informática;96,61;93;Suministros Ejemplo, S.L.
+00102;Monitor 24 pulgadas · modelo 2;Informática;247,43;86;Oficina Ficticia, S.A.
+00103;Monitor 24 pulgadas · modelo 3;Informática;44,76;27;Almacén Inventado
+00104;Monitor 24 pulgadas · modelo 4;Informática;283,41;5;Papelería Simulada
+00105;Monitor 24 pulgadas · modelo 5;Informática;291,46;28;Almacén Inventado
+00106;Teclado inalámbrico;Informática;6,57;7;Papelería Simulada
+00107;Teclado inalámbrico · modelo 2;Informática;211,75;62;Suministros Ejemplo, S.L.
+00108;Teclado inalámbrico · modelo 3;Informática;162,04;89;Papelería Simulada
+00109;Teclado inalámbrico · modelo 4;Informática;217,47;34;Almacén Inventado
+00110;Teclado inalámbrico · modelo 5;Informática;75,91;5;Almacén Inventado
+00111;Ratón ergonómico;Informática;189,34;60;Distribuciones Demo
+00112;Ratón ergonómico · modelo 2;Informática;13,89;23;Papelería Simulada
+00113;Ratón ergonómico · modelo 3;Informática;12,19;39;Oficina Ficticia, S.A.
+00114;Ratón ergonómico · modelo 4;Informática;70,91;52;Almacén Inventado
+00115;Ratón ergonómico · modelo 5;Informática;315,32;67;Papelería Simulada
+00116;Auriculares con micrófono;Informática;15,84;88;Suministros Ejemplo, S.L.
+00117;Auriculares con micrófono · modelo 2;Informática;54,98;31;Distribuciones Demo
+00118;Auriculares con micrófono · modelo 3;Informática;226,88;70;Oficina Ficticia, S.A.
+00119;Auriculares con micrófono · modelo 4;Informática;19,90;20;Suministros Ejemplo, S.L.
+00120;Auriculares con micrófono · modelo 5;Informática;96,17;71;Papelería Simulada
+00121;Base de carga USB;Informática;102,44;49;Almacén Inventado
+00122;Base de carga USB · modelo 2;Informática;46,55;90;Distribuciones Demo
+00123;Base de carga USB · modelo 3;Informática;196,71;14;Suministros Ejemplo, S.L.
+00124;Base de carga USB · modelo 4;Informática;198,41;53;Oficina Ficticia, S.A.
+00125;Base de carga USB · modelo 5;Informática;88,26;37;Oficina Ficticia, S.A.
+00126;Toallitas para pantallas;Limpieza;302,98;44;Oficina Ficticia, S.A.
+00127;Toallitas para pantallas · modelo 2;Limpieza;20,00;35;Oficina Ficticia, S.A.
+00128;Toallitas para pantallas · modelo 3;Limpieza;20,45;41;Suministros Ejemplo, S.L.
+00129;Toallitas para pantallas · modelo 4;Limpieza;76,24;24;Suministros Ejemplo, S.L.
+00130;Toallitas para pantallas · modelo 5;Limpieza;206,51;101;Distribuciones Demo
+00131;Papel de manos (pack);Limpieza;380,89;39;Suministros Ejemplo, S.L.
+00132;Papel de manos (pack) · modelo 2;Limpieza;398,59;26;Oficina Ficticia, S.A.
+00133;Papel de manos (pack) · modelo 3;Limpieza;40,77;96;Suministros Ejemplo, S.L.
+00134;Papel de manos (pack) · modelo 4;Limpieza;153,85;53;Almacén Inventado
+00135;Papel de manos (pack) · modelo 5;Limpieza;167,28;20;Almacén Inventado
+00136;Gel desinfectante;Limpieza;50,20;98;Papelería Simulada
+00137;Gel desinfectante · modelo 2;Limpieza;362,74;100;Almacén Inventado
+00138;Gel desinfectante · modelo 3;Limpieza;91,35;59;Papelería Simulada
+00139;Gel desinfectante · modelo 4;Limpieza;4,69;16;Oficina Ficticia, S.A.
+00140;Gel desinfectante · modelo 5;Limpieza;52,63;107;Distribuciones Demo
+00141;Bolsas de basura (rollo);Limpieza;347,29;90;Papelería Simulada
+00142;Bolsas de basura (rollo) · modelo 2;Limpieza;250,12;86;Distribuciones Demo
+00143;Bolsas de basura (rollo) · modelo 3;Limpieza;163,21;72;Almacén Inventado
+00144;Bolsas de basura (rollo) · modelo 4;Limpieza;13,92;28;Almacén Inventado
+00145;Bolsas de basura (rollo) · modelo 5;Limpieza;142,15;96;Oficina Ficticia, S.A.
+00146;Spray limpiador multiusos;Limpieza;333,00;60;Distribuciones Demo
+00147;Spray limpiador multiusos · modelo 2;Limpieza;121,81;4;Almacén Inventado
+00148;Spray limpiador multiusos · modelo 3;Limpieza;135,68;60;Distribuciones Demo
+00149;Spray limpiador multiusos · modelo 4;Limpieza;202,50;114;Almacén Inventado
+00150;Spray limpiador multiusos · modelo 5;Limpieza;180,82;62;Distribuciones Demo

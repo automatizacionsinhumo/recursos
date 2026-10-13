@@ -1,0 +1,289 @@
+{
+  "id": "ep006b0000000002",
+  "name": "EP006 B — Comparar dos tarifas: normalizar y una línea por cambio real",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c6000001-0000-4000-8000-000000000001",
+      "name": "Inicio manual",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/tarifa_enero.csv",
+        "options": {}
+      },
+      "id": "c6000001-0000-4000-8000-000000000002",
+      "name": "Leer tarifa_enero.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c6000001-0000-4000-8000-000000000003",
+      "name": "Extraer tabla (enero)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/tarifa_febrero.csv",
+        "options": {}
+      },
+      "id": "c6000001-0000-4000-8000-000000000004",
+      "name": "Leer tarifa_febrero.csv",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        220,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {
+          "delimiter": ";",
+          "includeEmptyCells": true,
+          "headerRow": true
+        }
+      },
+      "id": "c6000001-0000-4000-8000-000000000005",
+      "name": "Extraer tabla (febrero)",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        440,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 2
+      },
+      "id": "c6000001-0000-4000-8000-000000000006",
+      "name": "Esperar a las dos tablas",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Segundo intento (B): normalizar ANTES de comparar y emparejar por código limpio. Una línea por cambio real.\n// Solo formato (decimales, espacios, mayúsculas) no es un cambio. Un retirado que reaparece con otro código se marca.\nconst limpio = (s) => String(s ?? '').replace(/\\s+/g, ' ').trim();\nconst num = (s) => { const t = limpio(s); if (t === '') return null; const v = Number(t.replace(/\\./g, '').replace(',', '.')); return Number.isFinite(v) ? v : null; };\nconst fila = (r) => ({ codigo: limpio(r.codigo), producto: limpio(r.producto), categoria: limpio(r.categoria), precio: num(r.precio), stock: num(r.stock), proveedor: limpio(r.proveedor) });\nconst enero = new Map($('Extraer tabla (enero)').all().map((it) => fila(it.json)).map((r) => [r.codigo, r]));\nconst febrero = new Map($('Extraer tabla (febrero)').all().map((it) => fila(it.json)).map((r) => [r.codigo, r]));\nconst out = [];\nconst igualTexto = (a, b) => a.toLowerCase() === b.toLowerCase();\nfor (const [k, a] of enero) {\n  const b = febrero.get(k);\n  if (!b) { out.push({ codigo: k, tipo: 'eliminado', campo: null, antes: a.producto, despues: null, aviso: '', estado: 'ok', _producto: a.producto }); continue; }\n  if (a.producto !== b.producto) out.push({ codigo: k, tipo: 'cambiado', campo: 'producto', antes: a.producto, despues: b.producto, aviso: '', estado: 'ok' });\n  if (!igualTexto(a.categoria, b.categoria)) out.push({ codigo: k, tipo: 'cambiado', campo: 'categoria', antes: a.categoria, despues: b.categoria, aviso: '', estado: 'ok' });\n  if (!igualTexto(a.proveedor, b.proveedor)) out.push({ codigo: k, tipo: 'cambiado', campo: 'proveedor', antes: a.proveedor, despues: b.proveedor, aviso: '', estado: 'ok' });\n  if (a.precio !== b.precio) out.push({ codigo: k, tipo: 'cambiado', campo: 'precio', antes: a.precio, despues: b.precio, aviso: '', estado: 'ok' });\n  if (a.stock !== b.stock) out.push({ codigo: k, tipo: 'cambiado', campo: 'stock', antes: a.stock, despues: b.stock, aviso: '', estado: 'ok' });\n}\nfor (const [k, b] of febrero) if (!enero.has(k)) out.push({ codigo: k, tipo: 'añadido', campo: null, antes: null, despues: b.producto, aviso: '', estado: 'ok', _producto: b.producto });\n// Posible cambio de código: un retirado y un añadido con el mismo nombre de producto.\nfor (const e of out.filter((x) => x.tipo === 'eliminado')) for (const a of out.filter((x) => x.tipo === 'añadido')) if (e._producto === a._producto) { e.aviso = 'posible cambio de código: el mismo producto aparece como ' + a.codigo; e.estado = 'revisar'; a.aviso = 'posible cambio de código: el mismo producto estaba como ' + e.codigo; a.estado = 'revisar'; }\nfor (const x of out) delete x._producto;\nconst nT = (t) => out.filter((x) => x.tipo === t).length;\nconst resumen = { codigo: 'RESUMEN', tipo: '', campo: '', antes: null, despues: null, aviso: 'filas enero: ' + enero.size + ' · filas febrero: ' + febrero.size + ' · cambios reales: ' + out.length + ' (cambiados: ' + nT('cambiado') + ' · añadidos: ' + nT('añadido') + ' · eliminados: ' + nT('eliminado') + ') · a revisar: ' + out.filter((x) => x.estado === 'revisar').length, estado: '' };\nreturn [...out.map((x) => ({ json: x })), { json: resumen }];"
+      },
+      "id": "c6000001-0000-4000-8000-000000000007",
+      "name": "Cambios reales",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        900,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "EP006B.cambios.xlsx",
+          "headerRow": true,
+          "sheetName": "Cambios"
+        }
+      },
+      "id": "c6000001-0000-4000-8000-000000000020",
+      "name": "Convertir a Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1540,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP006B.cambios.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c6000001-0000-4000-8000-000000000021",
+      "name": "Guardar Excel",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1760,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "once",
+        "options": {
+          "fileName": "EP006B.observed.json"
+        }
+      },
+      "id": "c6000001-0000-4000-8000-000000000022",
+      "name": "Convertir a JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1540,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "/data/out/EP006B.observed.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c6000001-0000-4000-8000-000000000023",
+      "name": "Guardar JSON",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1760,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Inicio manual": {
+      "main": [
+        [
+          {
+            "node": "Leer tarifa_enero.csv",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Leer tarifa_febrero.csv",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer tarifa_enero.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (enero)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer tarifa_febrero.csv": {
+      "main": [
+        [
+          {
+            "node": "Extraer tabla (febrero)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (enero)": {
+      "main": [
+        [
+          {
+            "node": "Esperar a las dos tablas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer tabla (febrero)": {
+      "main": [
+        [
+          {
+            "node": "Esperar a las dos tablas",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Esperar a las dos tablas": {
+      "main": [
+        [
+          {
+            "node": "Cambios reales",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cambios reales": {
+      "main": [
+        [
+          {
+            "node": "Convertir a Excel",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Convertir a JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a Excel": {
+      "main": [
+        [
+          {
+            "node": "Guardar Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convertir a JSON": {
+      "main": [
+        [
+          {
+            "node": "Guardar JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
