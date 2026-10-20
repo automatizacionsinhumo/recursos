@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-10-20",
+  "primera_respuesta": {
+    "gemini_tras_continua": {
+      "herramienta": "gemini",
+      "cambios_reales_encontrados": 16,
+      "de": 16,
+      "fantasmas": 2,
+      "escondidos_como_precio": 3,
+      "aviso_cambio_de_codigo": false
+    },
+    "chatgpt": {
+      "herramienta": "chatgpt",
+      "cambios_reales_encontrados": 16,
+      "de": 16,
+      "fantasmas": 5,
+      "escondidos_como_precio": 3,
+      "aviso_cambio_de_codigo": false
+    }
+  },
+  "mayor_subida_real": {
+    "codigo": "00058",
+    "antes": 190.1,
+    "despues": 209.03,
+    "subida": 18.93
+  },
+  "chatgpt_dijo": {
+    "codigo": "00073",
+    "subida": 12.13,
+    "puesto": 4
+  },
+  "pregunta_2": "las dos separaron exactamente 16 cambios reales y 14 de formato; solo ChatGPT avisó del cambio de código 00120 → 00152"
+}

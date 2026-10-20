@@ -1,0 +1,228 @@
+{
+  "notice": "Respuesta correcta calculada antes de ejecutar: la lista exacta de cambios entre enero y febrero. Las diferencias solo de formato (decimales, espacios, mayúsculas) no son cambios; un producto retirado que reaparece con otro código se marca para revisar, no se adivina.",
+  "files": {
+    "enero": {
+      "file": "tarifa_enero.csv",
+      "rows": 150
+    },
+    "febrero": {
+      "file": "tarifa_febrero.csv",
+      "rows": 150
+    },
+    "separator": ";",
+    "decimal": ",",
+    "encoding": "UTF-8 sin BOM",
+    "columns": [
+      "codigo",
+      "producto",
+      "categoria",
+      "precio",
+      "stock",
+      "proveedor"
+    ],
+    "note": "febrero viene en otro orden"
+  },
+  "totals": {
+    "filas_enero": 150,
+    "filas_febrero": 150,
+    "cambios_reales": 16,
+    "precios": 8,
+    "existencias": 3,
+    "nombres": 1,
+    "añadidos": 2,
+    "eliminados": 2,
+    "a_revisar": 2,
+    "ruido_formato": 14,
+    "codigos_con_espacio": 3
+  },
+  "naive_compare_as_is": {
+    "description": "Primer intento: comparar las dos tablas tal cual, emparejando por código letra a letra y comparando todos los campos.",
+    "distintas": 23,
+    "solo_en_enero": 5,
+    "solo_en_febrero": 5,
+    "total_reportado": 33,
+    "cambios_reales": 16,
+    "escondidos": [
+      {
+        "codigo": "00042",
+        "campo": "precio"
+      },
+      {
+        "codigo": "00096",
+        "campo": "precio"
+      },
+      {
+        "codigo": "00139",
+        "campo": "precio"
+      }
+    ],
+    "note": "Reporta 33 «cambios» cuando hay 16; 14 son solo formato y 3 subidas de precio quedan escondidas como «solo en enero» + «solo en febrero»."
+  },
+  "noise_codes": [
+    "00004",
+    "00005",
+    "00013",
+    "00024",
+    "00046",
+    "00052",
+    "00055",
+    "00056",
+    "00065",
+    "00068",
+    "00079",
+    "00091",
+    "00097",
+    "00116"
+  ],
+  "space_key_codes": [
+    "00042",
+    "00096",
+    "00139"
+  ],
+  "changes": [
+    {
+      "codigo": "00007",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 187.81,
+      "despues": 199.97,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00021",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 170.13,
+      "despues": 188.16,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00042",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 73.12,
+      "despues": 79.65,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00058",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 190.1,
+      "despues": 209.03,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00073",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 210.19,
+      "despues": 222.32,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00096",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 282.39,
+      "despues": 292.07,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00114",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 70.91,
+      "despues": 74.48,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00139",
+      "tipo": "cambiado",
+      "campo": "precio",
+      "antes": 4.69,
+      "despues": 5.22,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00015",
+      "tipo": "cambiado",
+      "campo": "stock",
+      "antes": 107,
+      "despues": 85,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00088",
+      "tipo": "cambiado",
+      "campo": "stock",
+      "antes": 71,
+      "despues": 109,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00127",
+      "tipo": "cambiado",
+      "campo": "stock",
+      "antes": 35,
+      "despues": 62,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00076",
+      "tipo": "cambiado",
+      "campo": "producto",
+      "antes": "Silla de oficina básica",
+      "despues": "Silla de oficina básica (negra)",
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00033",
+      "tipo": "eliminado",
+      "campo": null,
+      "antes": "Rotuladores permanentes · modelo 3",
+      "despues": null,
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00120",
+      "tipo": "eliminado",
+      "campo": null,
+      "antes": "Auriculares con micrófono · modelo 5",
+      "despues": null,
+      "aviso": "posible cambio de código: el mismo producto aparece como 00152",
+      "estado": "revisar"
+    },
+    {
+      "codigo": "00151",
+      "tipo": "añadido",
+      "campo": null,
+      "antes": null,
+      "despues": "Pizarra blanca 90×60",
+      "aviso": "",
+      "estado": "ok"
+    },
+    {
+      "codigo": "00152",
+      "tipo": "añadido",
+      "campo": null,
+      "antes": null,
+      "despues": "Auriculares con micrófono · modelo 5",
+      "aviso": "posible cambio de código: el mismo producto estaba como 00120",
+      "estado": "revisar"
+    }
+  ]
+}
