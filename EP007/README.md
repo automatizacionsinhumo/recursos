@@ -23,4 +23,6 @@ Todo lo necesario para repetir la prueba con tu IA. Datos sintéticos: empresas,
 
 Límites: es una prueba de un día con planes gratuitos; los planes de pago y otras fechas pueden dar otro resultado. La comprobación de base + IVA no detecta un importe mal leído que cuadre por casualidad: para eso hay que comparar con el original (o con `respuesta_correcta_30_facturas.json` en esta prueba).
 
+Plantilla comprobada en Google Sheets el 20-oct-2026: con las tablas de ejemplo da 30 filas y 1 a revisar (Gemini) y 20 filas, faltan 10 y 1 a revisar (ChatGPT). Solo usa funciones básicas de Excel.
+
 Licencia: datos, plantilla y textos de este directorio, CC0 (dominio público). ChatGPT es una marca de OpenAI y Gemini de Google; este material no está afiliado ni patrocinado por ninguna de las dos.

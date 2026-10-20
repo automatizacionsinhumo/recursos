@@ -23,4 +23,6 @@ Todo lo necesario para repetir la prueba con tu IA. Datos sintéticos: productos
 
 Límites: la plantilla solo comprueba lo que la IA lista; un cambio que la IA no mencione no aparece. Prueba de un día con planes gratuitos.
 
+Plantilla comprobada en Google Sheets el 20-oct-2026: con la tabla de ejemplo da 21 filas, 5 de solo formato, 16 cambios y mayor subida 18,93 € en el 00058. En Excel necesita la versión 2019 o Microsoft 365 (usa MAXIFS).
+
 Licencia: datos, plantilla y textos de este directorio, CC0 (dominio público). ChatGPT es una marca de OpenAI y Gemini de Google; este material no está afiliado ni patrocinado por ninguna de las dos.
