@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-10-20",
+  "regla": "8 datos por factura (240): número, proveedor, NIF, fecha, base, % IVA, cuota IVA y total impreso; formato no cuenta como error",
+  "gemini_archivos_sueltos": {
+    "herramienta": "gemini",
+    "correctos": 240,
+    "de": 240,
+    "incorrectos": 0,
+    "vacios": 0,
+    "sin_fila": 0,
+    "facturas_sin_fila": [],
+    "factura_0013": {
+      "total_reported": 416.74,
+      "category_from_table": "copia_el_impreso"
+    },
+    "notas_0013": "ronda1: copia 416,74 sin avisar; ronda2: afirma que las 30 cuadran (FALSO) y señala 0003 por un redondeo correcto"
+  },
+  "chatgpt_pdf_unico": {
+    "herramienta": "chatgpt_B",
+    "correctos": 160,
+    "de": 240,
+    "incorrectos": 0,
+    "vacios": 0,
+    "sin_fila": 80,
+    "facturas_sin_fila": [
+      "FAC-2026-0021.pdf",
+      "FAC-2026-0022.pdf",
+      "FAC-2026-0023.pdf",
+      "FAC-2026-0024.pdf",
+      "FAC-2026-0025.pdf",
+      "FAC-2026-0026.pdf",
+      "FAC-2026-0027.pdf",
+      "FAC-2026-0028.pdf",
+      "FAC-2026-0029.pdf",
+      "FAC-2026-0030.pdf"
+    ],
+    "factura_0013": {
+      "total_reported": 416.74,
+      "category_from_table": "copia_el_impreso"
+    },
+    "notas_0013": "ronda1: copia 416,74 sin avisar (dice que no recalcula); ronda2: detecta 0013 con +10,00 € (correcto)"
+  }
+}
