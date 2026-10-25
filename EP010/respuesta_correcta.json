@@ -1,0 +1,199 @@
+{
+  "caso": "Viaje de cuatro días a Asturias, cinco amigos, 16 gastos, una fianza devuelta y un adelanto en efectivo (datos inventados).",
+  "regla": "Saldo = lo que pagó − lo que le toca + lo que adelantó a otro − lo que recibió de otro. Positivo: le deben. Negativo: debe.",
+  "total_del_viaje": "1.505,90 €",
+  "total_del_viaje_cents": 150590,
+  "por_persona": [
+    {
+      "persona": "Ana",
+      "pagado": "493,25 €",
+      "le_toca": "318,27 €",
+      "efectivo_entre_amigos": "−50,00 €",
+      "saldo": "124,98 €",
+      "saldo_cents": 12498
+    },
+    {
+      "persona": "Bruno",
+      "pagado": "419,30 €",
+      "le_toca": "292,27 €",
+      "efectivo_entre_amigos": "0,00 €",
+      "saldo": "127,03 €",
+      "saldo_cents": 12703
+    },
+    {
+      "persona": "Carla",
+      "pagado": "206,85 €",
+      "le_toca": "308,82 €",
+      "efectivo_entre_amigos": "0,00 €",
+      "saldo": "−101,97 €",
+      "saldo_cents": -10197
+    },
+    {
+      "persona": "David",
+      "pagado": "199,80 €",
+      "le_toca": "318,27 €",
+      "efectivo_entre_amigos": "0,00 €",
+      "saldo": "−118,47 €",
+      "saldo_cents": -11847
+    },
+    {
+      "persona": "Elena",
+      "pagado": "186,70 €",
+      "le_toca": "268,27 €",
+      "efectivo_entre_amigos": "50,00 €",
+      "saldo": "−31,57 €",
+      "saldo_cents": -3157
+    }
+  ],
+  "transferencias_minimas": 4,
+  "una_solucion": [
+    {
+      "paga": "David",
+      "recibe": "Bruno",
+      "importe": "118,47 €",
+      "cents": 11847
+    },
+    {
+      "paga": "Carla",
+      "recibe": "Ana",
+      "importe": "101,97 €",
+      "cents": 10197
+    },
+    {
+      "paga": "Elena",
+      "recibe": "Ana",
+      "importe": "23,01 €",
+      "cents": 2301
+    },
+    {
+      "paga": "Elena",
+      "recibe": "Bruno",
+      "importe": "8,56 €",
+      "cents": 856
+    }
+  ],
+  "nota_soluciones": "Hay varias formas de quedar en paz con 4 transferencias; vale cualquiera que deje a todos a cero. Con menos de 4 es imposible: ningún grupo de deudores suma exactamente lo que se le debe a un acreedor.",
+  "errores_tipicos": [
+    {
+      "error": "el kayak repartido entre los cinco",
+      "id": "kayak_entre_5",
+      "saldos": {
+        "Ana": "138,98 €",
+        "Bruno": "106,03 €",
+        "Carla": "−87,97 €",
+        "David": "−104,47 €",
+        "Elena": "−52,57 €"
+      }
+    },
+    {
+      "error": "la comida de Cudillero repartida entre los cinco",
+      "id": "cudillero_entre_5",
+      "saldos": {
+        "Ana": "129,78 €",
+        "Bruno": "131,83 €",
+        "Carla": "−97,17 €",
+        "David": "−113,67 €",
+        "Elena": "−50,77 €"
+      }
+    },
+    {
+      "error": "el museo repartido entre los cinco",
+      "id": "museo_entre_5",
+      "saldos": {
+        "Ana": "121,38 €",
+        "Bruno": "132,43 €",
+        "Carla": "−105,57 €",
+        "David": "−122,07 €",
+        "Elena": "−26,17 €"
+      }
+    },
+    {
+      "error": "el museo como gasto solo de Bruno",
+      "id": "museo_solo_bruno",
+      "saldos": {
+        "Ana": "124,98 €",
+        "Bruno": "118,03 €",
+        "Carla": "−101,97 €",
+        "David": "−118,47 €",
+        "Elena": "−22,57 €"
+      }
+    },
+    {
+      "error": "el autobús de Carla repartido entre los cinco",
+      "id": "autobus_entre_5",
+      "saldos": {
+        "Ana": "118,68 €",
+        "Bruno": "120,73 €",
+        "Carla": "−76,77 €",
+        "David": "−124,77 €",
+        "Elena": "−37,87 €"
+      }
+    },
+    {
+      "error": "la comida del domingo repartida entre los cinco",
+      "id": "domingo_entre_5",
+      "saldos": {
+        "Ana": "130,92 €",
+        "Bruno": "132,97 €",
+        "Carla": "−125,73 €",
+        "David": "−112,53 €",
+        "Elena": "−25,63 €"
+      }
+    },
+    {
+      "error": "la gasolina de la vuelta repartida entre los cinco",
+      "id": "gasolina_vuelta_entre_5",
+      "saldos": {
+        "Ana": "127,23 €",
+        "Bruno": "129,28 €",
+        "Carla": "−110,97 €",
+        "David": "−116,22 €",
+        "Elena": "−29,32 €"
+      }
+    },
+    {
+      "error": "la gasolina de la vuelta como pagada solo por Bruno",
+      "id": "gasolina_vuelta_solo_bruno",
+      "saldos": {
+        "Ana": "124,98 €",
+        "Bruno": "149,53 €",
+        "Carla": "−101,97 €",
+        "David": "−140,97 €",
+        "Elena": "−31,57 €"
+      }
+    },
+    {
+      "error": "la fianza devuelta sin descontar",
+      "id": "fianza_ignorada",
+      "saldos": {
+        "Ana": "204,98 €",
+        "Bruno": "107,03 €",
+        "Carla": "−121,97 €",
+        "David": "−138,47 €",
+        "Elena": "−51,57 €"
+      }
+    },
+    {
+      "error": "los 50 € que Elena adelantó a Ana sin contar",
+      "id": "adelanto_ignorado",
+      "saldos": {
+        "Ana": "174,98 €",
+        "Bruno": "127,03 €",
+        "Carla": "−101,97 €",
+        "David": "−118,47 €",
+        "Elena": "−81,57 €"
+      }
+    },
+    {
+      "error": "los 50 € de Elena contados al revés (como si Ana se los diera a Elena)",
+      "id": "adelanto_al_reves",
+      "saldos": {
+        "Ana": "224,98 €",
+        "Bruno": "127,03 €",
+        "Carla": "−101,97 €",
+        "David": "−118,47 €",
+        "Elena": "−131,57 €"
+      }
+    }
+  ]
+}

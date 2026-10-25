@@ -1,0 +1,71 @@
+{
+  "tool": "gemini",
+  "scored_at": "2026-10-25T19:44:15.393Z",
+  "protocol": "episodes/EP010/protocolo.md",
+  "q1": {
+    "transferencias": [
+      {
+        "paga": "David",
+        "recibe": "Bruno",
+        "cents": 11847,
+        "linea": "David le paga a Bruno: 118,47 €"
+      },
+      {
+        "paga": "Carla",
+        "recibe": "Bruno",
+        "cents": 856,
+        "linea": "Carla le paga a Bruno: 8,56 €"
+      },
+      {
+        "paga": "Carla",
+        "recibe": "Ana",
+        "cents": 9341,
+        "linea": "Carla le paga a Ana: 93,41 €"
+      },
+      {
+        "paga": "Elena",
+        "recibe": "Ana",
+        "cents": 3157,
+        "linea": "Elena le paga a Ana: 31,57 €"
+      }
+    ],
+    "bloques_de_transferencias": 1,
+    "numero_transferencias": 4,
+    "minimo_transferencias": 4,
+    "saldo_implicito": {
+      "Ana": 12498,
+      "Bruno": 12703,
+      "Carla": -10197,
+      "David": -11847,
+      "Elena": -3157
+    },
+    "saldo_correcto": {
+      "Ana": 12498,
+      "Bruno": 12703,
+      "Carla": -10197,
+      "David": -11847,
+      "Elena": -3157
+    },
+    "diferencia_por_persona_cents": {
+      "Ana": 0,
+      "Bruno": 0,
+      "Carla": 0,
+      "David": 0,
+      "Elena": 0
+    },
+    "personas_con_saldo_correcto": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "David",
+      "Elena"
+    ],
+    "quedan_en_paz": true,
+    "dinero_mal_repartido_cents": 0,
+    "errores_que_lo_explican": []
+  },
+  "q2": {
+    "mantiene_la_propuesta_del_mensaje_1": true,
+    "nota": "sin transferencias nuevas en la respuesta al mensaje 2"
+  }
+}

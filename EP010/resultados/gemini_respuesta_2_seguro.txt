@@ -1,0 +1,159 @@
+¡Haces muy bien en dudar y revisar! Vamos a repasar juntos cada detalle de los apuntes para asegurarnos de que no hay ningún error y de que la lógica es completamente rigurosa.
+
+1. Comprobación de lo que ha pagado cada uno (Entrada de dinero)
+
+Ana:
+
+Pagó la casa rural: 540 € (con tarjeta/banco).
+
+Le devolvieron 100 € de fianza (por lo que el coste neto del alojamiento es de 440 €).
+
+Recibió 50 € en efectivo de Elena.
+
+Pagó cafés (21,75 €) y el autobús de Carla (31,50 €).
+
+Cálculo real de su bolsillo: 
+540
+−
+100
+ (fianza)
+−
+50
+ (efectivo de Elena)
++
+21
+,
+75
++
+31
+,
+50
+=
+443
+,
+25
+ 
+𝜖
+540−100 (fianza)−50 (efectivo de Elena)+21,75+31,50=443,25 ϵ. (Correcto)
+
+Bruno:
+
+Alquiler de coche (236,40 €) + Peajes (23,60 €) + Museo (18 €) + Comida domingo (118,80 €) + Su mitad de la gasolina de vuelta (22,50 €).
+
+Total: 
+419
+,
+30
+ 
+𝜖
+419,30 ϵ. (Correcto)
+
+Carla:
+
+Supermercado (87,35 €) + Kayak (105 €) + Helados (14,50 €).
+
+Total: 
+206
+,
+85
+ 
+𝜖
+206,85 ϵ. (Correcto)
+
+David:
+
+Gasolina ida (68,90 €) + Comida Cudillero (96 €) + Parking Oviedo (12,40 €) + Su mitad de la gasolina de vuelta (22,50 €).
+
+Total: 
+199
+,
+80
+ 
+𝜖
+199,80 ϵ. (Correcto)
+
+Elena:
+
+Cena sidrería (132,50 €) + Compra cena sábado (54,20 €) + 50 € en efectivo que le dio a Ana para la casa.
+
+Total: 
+236
+,
+70
+ 
+𝜖
+236,70 ϵ. (Correcto)
+
+👉 Suma total pagada por todos: 
+443
+,
+25
++
+419
+,
+30
++
+206
+,
+85
++
+199
+,
+80
++
+236
+,
+70
+=
+1.505
+,
+90
+ 
+𝜖
+443,25+419,30+206,85+199,80+236,70=1.505,90 ϵ.
+
+2. Comprobación de los costes (Lo que consume cada uno)
+
+Si sumamos lo que le toca pagar a cada uno según quién participó en cada actividad:
+
+Ana: 318,27 €
+
+Bruno: 292,27 €
+
+Carla: 308,82 €
+
+David: 318,27 €
+
+Elena: 268,27 €
+
+👉 Suma total de costes: 
+318
+,
+27
++
+292
+,
+27
++
+308
+,
+82
++
+318
+,
+27
++
+268
+,
+27
+=
+1.505
+,
+90
+ 
+𝜖
+318,27+292,27+308,82+318,27+268,27=1.505,90 ϵ.
+
+El hecho de que el total de lo pagado coincida exactos céntimos con el total de los costes (1.505,90 €) confirma que las matemáticas son perfectamente coherentes.
+
+¿Hay algún gasto o detalle específico de la lista (como los anticipos o las exclusiones de personas) que quieras que volvamos a mirar de cerca por si interpretamos el enunciado de otra manera?

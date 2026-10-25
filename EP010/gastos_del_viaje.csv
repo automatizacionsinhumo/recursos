@@ -1,0 +1,19 @@
+concepto;importe;pago;entre_quienes
+Alquiler del coche;236,40;Bruno;todos
+Gasolina de la ida;68,90;David;todos
+Casa rural, tres noches (incluye 100 € de fianza);540,00;Ana;todos
+Compra en el supermercado;87,35;Carla;todos
+Cena en la sidrería;132,50;Elena;todos
+Peajes;23,60;Bruno;todos
+Kayak (solo Ana, Carla y David);105,00;Carla;Ana, Carla, David
+Comida en Cudillero (Elena no fue);96,00;David;Ana, Bruno, Carla, David
+Museo (entradas de Bruno y Elena);18,00;Bruno;Bruno, Elena
+Cafés y churros;21,75;Ana;todos
+Helados;14,50;Carla;todos
+Compra para la cena del sábado;54,20;Elena;todos
+Parking en Oviedo;12,40;David;todos
+Autobús de vuelta de Carla;31,50;Ana;Carla
+Comida del domingo (Carla ya se había ido);118,80;Bruno;Ana, Bruno, David, Elena
+Gasolina de la vuelta (a medias Bruno y David; Carla ya no venía);45,00;Bruno 22,50 + David 22,50;Ana, Bruno, David, Elena
+Fianza de la casa devuelta a Ana;-100,00;Ana;todos
+Efectivo: Elena le dio a Ana 50 € en efectivo a cuenta de la casa;50,00;Elena;para Ana

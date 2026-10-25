@@ -1,0 +1,33 @@
+Aquí tienes el desglose detallado de las cuentas del viaje a Asturias, organizado paso a paso para responder a tus tres preguntas.
+
+1. ¿Cuánto ha pagado y cuánto le toca pagar a cada uno?
+
+Para calcular lo que ha pagado cada uno se han tenido en cuenta los gastos directos, la devolución de la fianza de la casa (100 €) y el dinero en efectivo que Elena le entregó a Ana (50 €). El coste total del viaje se ha repartido proporcionalmente según quién participara en cada actividad (por ejemplo, excluyendo a Carla en la comida del domingo y gasolina de vuelta, a Elena en la comida de Cudillero, o prorrateando el kayak y el museo solo entre los asistentes).
+
+| Amigo/a | Ha pagado | Le toca pagar (Coste) | Balance (A favor / En contra) |
+|---|---|---|---|
+| Ana | 443,25 € | 318,27 € | +124,98 € (Le deben) |
+| Bruno | 419,30 € | 292,27 € | +127,03 € (Le deben) |
+| Carla | 206,85 € | 308,82 € | -101,97 € (Debe) |
+| David | 199,80 € | 318,27 € | -118,47 € (Debe) |
+| Elena | 236,70 € | 268,27 € | -31,57 € (Debe) |
+| TOTALES | 1.505,90 € | 1.505,90 € |  |
+2. ¿Quién tiene que pagar a quién para quedar en paz?
+
+Para saldar todas las deudas con el menor número posible de transferencias (exactamente 4 transacciones), las instrucciones son las siguientes:
+
+David le paga a Bruno: 118,47 €
+
+Carla le paga a Bruno: 8,56 €
+
+Carla le paga a Ana: 93,41 €
+
+Elena le paga a Ana: 31,57 €
+
+💡 Notas aclaratorias de los cálculos:
+
+Casa rural: Costaba 540 €, pero incluía 100 € de fianza que se devolvieron a Ana (coste real de la estancia: 440 €). Además, Elena dio 50 € en efectivo a Ana a cuenta el primer día, lo cual se ha descontado de lo que Ana adelantó con tarjeta.
+
+Autobús de Carla: Se ha sumado íntegramente como gasto particular de Carla (pagado por Ana).
+
+Actividades parciales: El kayak (Ana, Carla y David), la comida en Cudillero (sin Elena), el museo (Bruno y Elena), y las comidas/gasolina del domingo (sin Carla) se han prorrateado exclusivamente entre los asistentes correspondientes.

@@ -1,0 +1,129 @@
+{
+  "tool": "chatgpt",
+  "scored_at": "2026-10-25T19:44:15.305Z",
+  "protocol": "episodes/EP010/protocolo.md",
+  "q1": {
+    "transferencias": [
+      {
+        "paga": "Carla",
+        "recibe": "Ana",
+        "cents": 10197,
+        "linea": "Carla → Ana · 101,97 €"
+      },
+      {
+        "paga": "David",
+        "recibe": "Bruno",
+        "cents": 11578,
+        "linea": "David → Bruno · 115,78 €"
+      },
+      {
+        "paga": "David",
+        "recibe": "Ana",
+        "cents": 1394,
+        "linea": "David → Ana · 13,94 €"
+      },
+      {
+        "paga": "Elena",
+        "recibe": "Ana",
+        "cents": 2032,
+        "linea": "Elena → Ana · 20,32 €"
+      }
+    ],
+    "bloques_de_transferencias": 1,
+    "numero_transferencias": 4,
+    "minimo_transferencias": 4,
+    "saldo_implicito": {
+      "Ana": 13623,
+      "Bruno": 11578,
+      "Carla": -10197,
+      "David": -12972,
+      "Elena": -2032
+    },
+    "saldo_correcto": {
+      "Ana": 12498,
+      "Bruno": 12703,
+      "Carla": -10197,
+      "David": -11847,
+      "Elena": -3157
+    },
+    "diferencia_por_persona_cents": {
+      "Ana": 1125,
+      "Bruno": -1125,
+      "Carla": 0,
+      "David": -1125,
+      "Elena": 1125
+    },
+    "personas_con_saldo_correcto": [
+      "Carla"
+    ],
+    "quedan_en_paz": false,
+    "dinero_mal_repartido_cents": 2250,
+    "errores_que_lo_explican": [
+      [
+        "la gasolina de la vuelta cargada solo a Bruno y David, los que la pagaron"
+      ]
+    ]
+  },
+  "q2": {
+    "transferencias": [
+      {
+        "paga": "Carla",
+        "recibe": "Ana",
+        "cents": 10197,
+        "linea": "| Carla | Ana | 101,97 € |"
+      },
+      {
+        "paga": "David",
+        "recibe": "Bruno",
+        "cents": 11847,
+        "linea": "| David | Bruno | 118,47 € |"
+      },
+      {
+        "paga": "Elena",
+        "recibe": "Ana",
+        "cents": 2301,
+        "linea": "| Elena | Ana | 23,01 € |"
+      },
+      {
+        "paga": "Elena",
+        "recibe": "Bruno",
+        "cents": 856,
+        "linea": "| Elena | Bruno | 8,56 € |"
+      }
+    ],
+    "bloques_de_transferencias": 1,
+    "numero_transferencias": 4,
+    "minimo_transferencias": 4,
+    "saldo_implicito": {
+      "Ana": 12498,
+      "Bruno": 12703,
+      "Carla": -10197,
+      "David": -11847,
+      "Elena": -3157
+    },
+    "saldo_correcto": {
+      "Ana": 12498,
+      "Bruno": 12703,
+      "Carla": -10197,
+      "David": -11847,
+      "Elena": -3157
+    },
+    "diferencia_por_persona_cents": {
+      "Ana": 0,
+      "Bruno": 0,
+      "Carla": 0,
+      "David": 0,
+      "Elena": 0
+    },
+    "personas_con_saldo_correcto": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "David",
+      "Elena"
+    ],
+    "quedan_en_paz": true,
+    "dinero_mal_repartido_cents": 0,
+    "errores_que_lo_explican": []
+  }
+}

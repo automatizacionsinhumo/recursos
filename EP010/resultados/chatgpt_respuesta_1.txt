@@ -1,0 +1,83 @@
+El reparto queda calculado teniendo en cuenta quién participó en cada actividad, la devolución de la fianza, los 50 € que Elena entregó en efectivo a Ana y el autobús de Carla.
+
+1. ¿Cuánto ha pagado cada uno?
+
+Considero como pagado neto lo que ha desembolsado cada persona, descontando los reembolsos recibidos y el dinero que haya recibido de otros para cubrir gastos.
+
+| Persona | Pagado neto |
+|---|---|
+| Ana | 443,25 € |
+| Bruno | 419,30 € |
+| Carla | 206,85 € |
+| David | 199,80 € |
+| Elena | 236,70 € |
+| Total | 1.505,90 € |
+
+En el caso de Ana, por ejemplo, se descuentan los 100 € de fianza que le devolvieron y los 50 € que Elena le dio en efectivo.
+
+2. ¿Cuánto le toca pagar a cada uno?
+
+He repartido los gastos comunes entre las cinco personas, excepto cuando alguien no participó en una actividad. El museo se asigna únicamente a Bruno y Elena, y el autobús de vuelta es responsabilidad de Carla.
+
+| Persona | Parte que le corresponde |
+|---|---|
+| Ana | 307,02 € |
+| Bruno | 303,52 € |
+| Carla | 308,82 € |
+| David | 329,52 € |
+| Elena | 257,02 € |
+| Total | 1.505,90 € |
+
+La suma de las partes coincide con el coste total del viaje.
+
+3. ¿Quién tiene que pagar a quién?
+
+La diferencia entre lo que ha pagado cada persona y lo que le correspondía pagar determina quién debe recibir dinero y quién debe aportar más.
+
+| Persona | Balance | Resultado |
+|---|---|---|
+| Ana | +136,23 € | Tiene que recibir |
+| Bruno | +115,78 € | Tiene que recibir |
+| Carla | −101,97 € | Tiene que pagar |
+| David | −129,72 € | Tiene que pagar |
+| Elena | −20,32 € | Tiene que pagar |
+4. Liquidación con el menor número de transferencias
+
+Estas son las 4 transferencias necesarias para dejar todas las cuentas saldadas:
+
+Carla → Ana
+
+Carla liquida su saldo pendiente.
+
+101,97 €
+
+David → Bruno
+
+Primera parte de la deuda de David.
+
+115,78 €
+
+David → Ana
+
+Resto de la deuda de David.
+
+13,94 €
+
+Elena → Ana
+
+Elena salda su diferencia pendiente.
+
+20,32 €
+Comprobación final
+
+Ana recibe: 101,97 + 13,94 + 20,32 = 136,23 €.
+
+Bruno recibe: 115,78 €.
+
+Carla paga: 101,97 €.
+
+David paga: 115,78 + 13,94 = 129,72 €.
+
+Elena paga: 20,32 €.
+
+Resultado: con estas cuatro transferencias, todos quedan en paz y los 1.505,90 € del viaje quedan completamente repartidos.

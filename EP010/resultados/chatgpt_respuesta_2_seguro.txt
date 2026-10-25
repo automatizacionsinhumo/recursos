@@ -1,0 +1,63 @@
+No. He vuelto a revisar los gastos y los repartos, y las cuentas de mi respuesta anterior eran incorrectas. Disculpa el error.
+
+El total de los gastos netos sí era correcto: 1.505,90 €, descontando los 100 € de fianza devueltos. Sin embargo, las partes que asigné a cada persona no estaban bien calculadas, por lo que también eran incorrectos los balances y las transferencias propuestas.
+
+Para rehacerlo, tomo estos criterios:
+
+La casa cuesta finalmente 440 €, porque los 100 € de fianza se devolvieron.
+
+Los 50 € que Elena entregó a Ana cuentan como dinero aportado por Elena para la casa.
+
+El kayak se reparte entre Ana, Carla y David.
+
+La comida de Cudillero se reparte entre los cuatro asistentes.
+
+El museo se asigna a Bruno y Elena.
+
+El autobús de vuelta corresponde a Carla.
+
+La comida del domingo se reparte entre los cuatro que quedaban.
+
+La gasolina de vuelta se reparte entre los cuatro que seguían en el viaje, aunque Bruno y David la pagaran a medias.
+
+Cuentas corregidas
+1. Cuánto ha pagado cada uno
+| Persona | Pagado neto |
+|---|---|
+| Ana | 443,25 € |
+| Bruno | 419,30 € |
+| Carla | 206,85 € |
+| David | 199,80 € |
+| Elena | 236,70 € |
+| Total | 1.505,90 € |
+2. Cuánto le corresponde a cada uno
+| Persona | Parte del viaje |
+|---|---|
+| Ana | 318,27 € |
+| Bruno | 292,27 € |
+| Carla | 308,82 € |
+| David | 318,27 € |
+| Elena | 268,27 € |
+| Total | 1.505,90 € |
+3. Liquidación final con cuatro transferencias
+| Quién paga | Quién recibe | Importe |
+|---|---|---|
+| Carla | Ana | 101,97 € |
+| David | Bruno | 118,47 € |
+| Elena | Ana | 23,01 € |
+| Elena | Bruno | 8,56 € |
+4. Comprobación de los saldos
+
+Ana recibe 124,98 €.
+
+Bruno recibe 127,03 €.
+
+Carla paga 101,97 €.
+
+David paga 118,47 €.
+
+Elena paga 31,57 €.
+
+Con estas cuatro transferencias, todos quedan saldados, sin contar dos veces ningún gasto ni la devolución de la fianza.
+
+Importante: este resultado considera que la gasolina de vuelta se reparte entre los cuatro que seguían en el viaje. Si acordasteis que ese gasto correspondía exclusivamente a Bruno y David, habría que modificar el reparto.
