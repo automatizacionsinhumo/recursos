@@ -1,0 +1,44 @@
+{
+  "tool": "gemini",
+  "scored_at": "2026-10-25T19:06:59.331Z",
+  "protocol": "episodes/EP009/protocolo.md",
+  "p1": {
+    "total_declarado": 190,
+    "total_candidatos": [
+      190,
+      120,
+      30,
+      190,
+      30
+    ],
+    "total_correcto": 190,
+    "repetidas_reales": 30,
+    "repetidas_encontradas": 30,
+    "por_tipo": {
+      "escritas_igual": "24/24",
+      "correo_con_mayusculas_o_espacios": "3/3",
+      "nombre_sin_acento_o_minusculas": "3/3"
+    },
+    "faltan": [],
+    "homonimos_fusionados": [],
+    "fantasmas": 0,
+    "fantasmas_detalle": [],
+    "filas": 30
+  },
+  "p2": {
+    "filas": 190,
+    "personas_esperadas": 190,
+    "perdidas": 0,
+    "perdidas_detalle": [],
+    "homonimos_perdidos": [],
+    "repetidas_que_quedan": [],
+    "inventadas": [],
+    "errores_de_campo": [],
+    "filas_sin_correo": 0,
+    "fusionadas_en_otra_fila": []
+  },
+  "conflictos_de_telefono_avisados": {
+    "sergio.cano81@correo-de-prueba.test": false,
+    "adrian.lozano@correo-de-prueba.test": false
+  }
+}
