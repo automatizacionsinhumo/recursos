@@ -14,6 +14,7 @@ Canal: https://www.youtube.com/@automatizacionsinhumo
 | Comparó dos tarifas, contó 33 cambios, eran 16 y tres subidas de precio no aparecían | [`EP006/`](EP006/) |
 | Pasé 30 facturas de PDF a Excel con ChatGPT y Gemini: ninguna avisó del error | [`EP007/`](EP007/) |
 | Comparar dos Excel con ChatGPT y Gemini: los 16 cambios… y otros que no lo eran | [`EP008/`](EP008/) |
+| Uní dos listas de clientes con ChatGPT: dijo 187 personas y eran 190 | [`EP009/`](EP009/) |
 
 ## Reglas de la casa
 - Datos siempre sintéticos: ningún correo, cliente ni empresa reales.

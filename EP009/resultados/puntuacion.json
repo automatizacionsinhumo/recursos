@@ -1,0 +1,57 @@
+{
+ "tool": "chatgpt",
+ "scored_at": "2026-10-25T16:12:45.303Z",
+ "protocol": "episodes/EP009/protocolo.md",
+ "p1": {
+  "total_declarado": 187,
+  "total_candidatos": [
+   187,
+   33
+  ],
+  "total_correcto": 190,
+  "repetidas_reales": 30,
+  "repetidas_encontradas": 30,
+  "por_tipo": {
+   "escritas_igual": "24/24",
+   "correo_con_mayusculas_o_espacios": "3/3",
+   "nombre_sin_acento_o_minusculas": "3/3"
+  },
+  "faltan": [],
+  "homonimos_fusionados": [
+   "Carmen Molina Serrano",
+   "María Ramos Marín",
+   "Rocío Molina Castro"
+  ],
+  "fantasmas": 0,
+  "fantasmas_detalle": [],
+  "filas": 33
+ },
+ "p2": {
+  "filas": 187,
+  "personas_esperadas": 190,
+  "perdidas": 3,
+  "perdidas_detalle": [
+   "carmen.molina150@correo-de-prueba.test",
+   "rocio.molina160@correo-de-prueba.test",
+   "maria.ramos170@correo-de-prueba.test"
+  ],
+  "homonimos_perdidos": [
+   "carmen.molina150@correo-de-prueba.test",
+   "rocio.molina160@correo-de-prueba.test",
+   "maria.ramos170@correo-de-prueba.test"
+  ],
+  "repetidas_que_quedan": [],
+  "inventadas": [],
+  "errores_de_campo": [],
+  "filas_sin_correo": 0,
+  "fusionadas_en_otra_fila": [
+   "carmen.molina150@correo-de-prueba.test → fila de carmen.molina25@correo-de-prueba.test",
+   "rocio.molina160@correo-de-prueba.test → fila de rocio.molina34@correo-de-prueba.test",
+   "maria.ramos170@correo-de-prueba.test → fila de maria.ramos39@correo-de-prueba.test"
+  ]
+ },
+ "conflictos_de_telefono_avisados": {
+  "sergio.cano81@correo-de-prueba.test": false,
+  "adrian.lozano@correo-de-prueba.test": false
+ }
+}
