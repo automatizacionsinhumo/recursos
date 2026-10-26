@@ -1,0 +1,17 @@
+Laura te tiene que pagar 21,23 €.
+
+Desglose de la compra
+
+| Concepto | Importe |
+|---|---|
+| Total del ticket | 44,03 € |
+| Tus productos: pechuga y cervezas | −9,83 € |
+| Productos de Laura: plátanos, yogures con promoción y café | −8,26 € |
+| Total compartido, tras descontar el cupón de 3 € | 25,94 € |
+| Mitad de los gastos compartidos | 12,97 € |
+| Productos exclusivos de Laura | 8,26 € |
+| Total que te debe Laura | 21,23 € |
+
+El cálculo incluye el descuento de 2,40 € de la promoción de los yogures y reparte el cupón general de 3 € a partes iguales (1,50 € para cada uno).
+
+Resultado: Laura debe transferirte 21,23 €.

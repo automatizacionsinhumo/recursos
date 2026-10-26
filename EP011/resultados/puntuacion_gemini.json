@@ -1,0 +1,27 @@
+{
+  "tool": "gemini",
+  "scored_at": "2026-10-26T20:45:25.357Z",
+  "protocol": "episodes/EP011/protocolo.md",
+  "q1": {
+    "respuesta_final_cents": 2123,
+    "frase": "Laura te debe 21,23 € en total.",
+    "correcta_cents": 2123,
+    "acierta": true,
+    "diferencia_cents": 0,
+    "errores_que_lo_explican": [],
+    "cita_total_del_ticket": false,
+    "menciona_2x1": true,
+    "usa_entregado_como_total": false
+  },
+  "q2": {
+    "respuesta_final_cents": 2123,
+    "frase": "El cálculo es totalmente correcto: 21,23 €.",
+    "correcta_cents": 2123,
+    "acierta": true,
+    "diferencia_cents": 0,
+    "errores_que_lo_explican": [],
+    "cita_total_del_ticket": true,
+    "menciona_2x1": true,
+    "usa_entregado_como_total": false
+  }
+}

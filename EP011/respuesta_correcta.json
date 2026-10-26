@@ -1,0 +1,103 @@
+{
+  "caso": "Ticket de la compra de un piso compartido (datos inventados). Pagué yo el ticket entero; lo compartido va a medias; el cupón de 3 €, a medias.",
+  "laura_me_debe": "21,23 €",
+  "laura_me_debe_cents": 2123,
+  "calculo": {
+    "solo_laura": "8,26 €",
+    "solo_mio": "9,83 €",
+    "compartido": "28,94 €",
+    "mitad_compartido": "14,47 €",
+    "mitad_cupon": "1,50 €"
+  },
+  "ticket": {
+    "subtotal": "47,03 €",
+    "total": "44,03 €",
+    "entregado": "50,00 €",
+    "cambio": "5,97 €"
+  },
+  "lineas": [
+    {
+      "producto": "LECHE ENTERA 1L",
+      "de": "compartido",
+      "importe": "5,70 €"
+    },
+    {
+      "producto": "PAN DE MOLDE",
+      "de": "compartido",
+      "importe": "1,85 €"
+    },
+    {
+      "producto": "PLATANO CANARIAS",
+      "de": "laura",
+      "importe": "2,71 €"
+    },
+    {
+      "producto": "TOMATE PERA",
+      "de": "compartido",
+      "importe": "1,65 €"
+    },
+    {
+      "producto": "PECHUGA POLLO",
+      "de": "yo",
+      "importe": "4,87 €"
+    },
+    {
+      "producto": "YOGUR GRIEGO 4U",
+      "de": "laura",
+      "importe": "2,40 €",
+      "nota": "PROMO 2X1 YOGUR GRIEGO: −2,40 € (es de Laura)"
+    },
+    {
+      "producto": "DETERGENTE LIQUIDO",
+      "de": "compartido",
+      "importe": "6,49 €"
+    },
+    {
+      "producto": "PAPEL HIGIENICO 12R",
+      "de": "compartido",
+      "importe": "4,25 €"
+    },
+    {
+      "producto": "CERVEZA LATA 33CL",
+      "de": "yo",
+      "importe": "4,96 €"
+    },
+    {
+      "producto": "CAFE MOLIDO 250G",
+      "de": "laura",
+      "importe": "3,15 €"
+    },
+    {
+      "producto": "ACEITE OLIVA 1L",
+      "de": "compartido",
+      "importe": "8,90 €"
+    },
+    {
+      "producto": "BOLSA",
+      "de": "compartido",
+      "importe": "0,10 €"
+    }
+  ],
+  "errores_tipicos": [
+    {
+      "error": "el 2x1 de los yogures no descontado",
+      "laura_me_debe": "23,63 €"
+    },
+    {
+      "error": "el descuento del 2x1 repartido a medias en vez de ser de Laura",
+      "laura_me_debe": "22,43 €"
+    },
+    {
+      "error": "el cupón no repartido (ignorado)",
+      "laura_me_debe": "22,73 €"
+    },
+    {
+      "error": "el cupón entero descontado a Laura",
+      "laura_me_debe": "19,73 €"
+    },
+    {
+      "error": "todo el ticket a medias, sin separar lo de cada uno",
+      "laura_me_debe": "22,02 €"
+    }
+  ]
+}

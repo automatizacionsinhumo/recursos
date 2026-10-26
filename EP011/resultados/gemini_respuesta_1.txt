@@ -1,0 +1,76 @@
+Para calcular cuánto te tiene que pagar Laura, vamos a clasificar cada uno de los productos del ticket según las reglas que has indicado (proporcional al total, tuyos exclusivos, de Laura exclusivos, y el descuento del cupón).
+
+1. Clasificación de los artículos del ticket
+
+Solo tuyos:
+
+Pechuga pollo: 4,87 €
+
+Cerveza lata 33cl (8 x 0,62): 4,96 €
+
+Subtotal solo tuyo: 4{,}87 + 4{,}96 = \mathbf{9{,}83\text{ \}}
+
+Solo de Laura:
+
+Plátano canarias: 2,71 €
+
+Yogur griego 4U (
+4,80
+−
+2,40
+4,80−2,40 por la promo 2x1): 2,40 €
+
+Café molido 250g: 3,15 €
+
+Subtotal solo de Laura: 2{,}71 + 2{,}40 + 3{,}15 = \mathbf{8{,}26\text{ \}}
+
+Compartidos (a medias):
+
+Leche entera 1L (6 x 0,95): 5,70 €
+
+Pan de molde: 1,85 €
+
+Tomate pera: 1,65 €
+
+Detergente líquido: 6,49 €
+
+Papel higiénico 12R: 4,25 €
+
+Aceite oliva 1L: 8,90 €
+
+Bolsa: 0,10 €
+
+Subtotal compartido bruto: 5{,}70 + 1{,}85 + 1{,}65 + 6{,}49 + 4{,}25 + 8{,}90 + 0{,}10 = \mathbf{28{,}94\text{ \}}
+
+2. Aplicación del cupón de descuento
+
+El ticket incluye un descuento de cupón (DTO. CUPON) de -3,00 €, que indicas que se reparte a medias. Por lo tanto, a la parte compartida se le resta este descuento:
+
+Parte compartida neta: 28{,}94\text{ €} - 3{,}00\text{ €} = \mathbf{25{,}94\text{ \}}
+
+Como se paga a medias, la parte que le corresponde pagar a cada uno de los gastos compartidos es: 25{,}94\text{ €} / 2 = \mathbf{12{,}97\text{ \}}
+
+3. Cálculo final de lo que te debe Laura
+
+Laura debe asumir:
+
+Su parte de los gastos compartidos: 12,97 €
+
+El total de sus productos exclusivos: 8,26 €
+
+Total que te tiene que pagar Laura:
+
+12,97
+ 
+\euro
++
+8,26
+ 
+\euro
+=
+21,23
+ 
+\euro
+12,97 \euro+8,26 \euro=21,23 \euro
+
+Laura te debe 21,23 € en total.

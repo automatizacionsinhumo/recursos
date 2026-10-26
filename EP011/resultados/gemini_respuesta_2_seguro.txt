@@ -1,0 +1,129 @@
+Vamos a revisarlo paso a paso con la calculadora para asegurarnos de que todo cuadre al céntimo.
+
+1. Comprobación de los importes del ticket
+
+Suma de todos los artículos (Subtotal):
+
+5,70
++
+1,85
++
+2,71
++
+1,65
++
+4,87
++
+4,80
+−
+2,40
++
+6,49
++
+4,25
++
+4,96
++
+3,15
++
+8,90
++
+0,10
+=
+47,03
+ 
+\euro
+5,70+1,85+2,71+1,65+4,87+4,80−2,40+6,49+4,25+4,96+3,15+8,90+0,10=47,03 \euro (Coincide exactamente con el subtotal del ticket).
+
+Aplicación del cupón:
+
+47,03
+ 
+\euro
+−
+3,00
+ 
+\euro
+=
+44,03
+ 
+\euro
+47,03 \euro−3,00 \euro=44,03 \euro (Coincide con el total final pagado).
+
+2. Desglose por bloques
+
+Tus productos exclusivos: Pechuga (
+4,87
+ €
+4,87 €) + Cervezas (
+4,96
+ €
+4,96 €) = 9,83 €
+
+Productos exclusivos de Laura: Plátanos (
+2,71
+ €
+2,71 €) + Yogures griegos con la promo (
+2,40
+ €
+2,40 €) + Café (
+3,15
+ €
+3,15 €) = 8,26 €
+
+Productos compartidos (brutos): Leche, pan, tomate, detergente, papel higiénico, aceite y bolsa = 28,94 €
+
+3. Reparto de lo compartido y el cupón
+
+Los productos compartidos suman 28,94 €. Si a esto le restamos el cupón de 3,00 € repartido a medias (
+1,50
+ €
+1,50 € para cada uno), la parte neta compartida que le toca asumir a Laura es:
+
+
+28,94
+ 
+\euro
+2
+−
+1,50
+ 
+\euro
+=
+14,47
+ 
+\euro
+−
+1,50
+ 
+\euro
+=
+12,97
+ 
+\euro
+2
+28,94 \euro
+	​
+
+−1,50 \euro=14,47 \euro−1,50 \euro=12,97 \euro
+4. Total que te debe Laura
+
+Su parte de la compra compartida (con el descuento aplicado): 12,97 €
+
+Sus productos exclusivos: 8,26 €
+
+Total: 
+12,97
+ 
+\euro
++
+8,26
+ 
+\euro
+=
+21,23
+ 
+\euro
+12,97 \euro+8,26 \euro=21,23 \euro
+
+El cálculo es totalmente correcto: 21,23 €.

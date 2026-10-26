@@ -1,0 +1,24 @@
+He vuelto a revisar los importes del ticket. El resultado de 21,23 € es correcto, aunque hay una imprecisión en cómo presenté el desglose anterior.
+
+Cálculo comprobado
+
+| Concepto | Importe |
+|---|---|
+| Total de productos antes del cupón general | 47,03 € |
+| Tus productos: pechuga (4,87 €) + cervezas (4,96 €) | 9,83 € |
+| Productos de Laura: plátanos (2,71 €) + yogures con promoción (2,40 €) + café (3,15 €) | 8,26 € |
+| Gastos compartidos antes del cupón | 28,94 € |
+| Mitad de los gastos compartidos | 14,47 € |
+| Productos exclusivos de Laura | +8,26 € |
+| Parte del cupón general que corresponde a Laura | −1,50 € |
+| Total que Laura te debe | 21,23 € |
+
+Comprobación final
+
+Tú: 9,83 € de productos propios + 14,47 € de gastos compartidos − 1,50 € de cupón = 22,80 €.
+
+Laura: 8,26 € de productos propios + 14,47 € de gastos compartidos − 1,50 € de cupón = 21,23 €.
+
+La suma es 44,03 €, exactamente el total pagado.
+
+Laura debe pagarte 21,23 €.

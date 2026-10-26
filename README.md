@@ -16,6 +16,7 @@ Canal: https://www.youtube.com/@automatizacionsinhumo
 | Comparar dos Excel con ChatGPT y Gemini: los 16 cambios… y otros que no lo eran | [`EP008/`](EP008/) |
 | Uní dos listas de clientes con ChatGPT: dijo 187 personas y eran 190 | [`EP009/`](EP009/) |
 | Le pedí a ChatGPT repartir los gastos de un viaje: a dos amigos les cobró de más | [`EP010/`](EP010/) |
+| Foto del ticket del súper a ChatGPT y Gemini: ¿cuánto me debe mi compañera? | [`EP011/`](EP011/) |
 
 ## Reglas de la casa
 - Datos siempre sintéticos: ningún correo, cliente ni empresa reales.
